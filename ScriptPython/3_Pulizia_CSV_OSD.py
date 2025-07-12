@@ -477,6 +477,15 @@ def clean_dataset():
     for provider, count in provider_stats.items():
         percentage = (count / len(df)) * 100
         print(f"{provider}: {count} ({percentage:.1f}%)")
+
+    # 16) Aggiunta campo EstimatedCost
+    rs = np.random.RandomState(42)
+    stock_unit = df[['StockCode', 'UnitPrice']].drop_duplicates()
+    variations = rs.uniform(0.2, 0.7, size=len(stock_unit))
+    stock_unit['EstimatedCost'] = (stock_unit['UnitPrice'] * variations).round(2)
+    mapping = dict(zip(stock_unit['StockCode'], stock_unit['EstimatedCost']))
+    df['EstimatedCost'] = df['StockCode'].map(mapping)
+
     
     df.to_csv(OUTPUT_PATH, index=False, float_format="%.2f")
     print(f"\nDataset consolidato salvato in: {OUTPUT_PATH}")

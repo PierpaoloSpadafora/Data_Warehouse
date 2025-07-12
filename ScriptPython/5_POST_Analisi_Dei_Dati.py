@@ -25,25 +25,26 @@ def reset_output(path: Path = OUTPUT_DIR):
     path.mkdir(parents=True, exist_ok=True)
 
 CONFIG = {
-    'InvoiceNo':       {'type': 'string',  'consistency': r'^\d{6}$'},
-    'StockCode':       {'type': 'string',  'consistency': r'^SKU_\d+$'},
-    'ArticleName':     {'type': 'string'},
-    'Quantity':        {'type': 'numeric', 'precision': 'positive_int', 'consistency': lambda x: x > 0},
-    'InvoiceDate':     {'type': 'datetime','precision': 'hourly'},
-    'UnitPrice':       {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x > 0},
-    'CustomerID':      {'type': 'numeric', 'consistency': lambda x: x > 0},
-    'Country':         {'type': 'string',  'consistency': r'^[A-Za-z\s]+$'},
-    'Discount':        {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: 0 <= x <= 100},
-    'PaymentMethod':   {'type': 'string',  'consistency': r'^(Credit Card|Paypal|Bank Transfer)$'},
-    'ShippingCost':    {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x >= 0},
-    'Category':        {'type': 'string'},
-    'SalesChannel':    {'type': 'string',  'consistency': r'^(Online|In-store)$'},
-    'ReturnStatus':    {'type': 'string',  'consistency': r'^(Not Returned|Returned)$'},
-    'ShipmentProvider':{'type': 'string'},
+    'InvoiceNo':        {'type': 'string',  'consistency': r'^\d{6}$'},
+    'StockCode':        {'type': 'string',  'consistency': r'^SKU_\d+$'},
+    'ArticleName':      {'type': 'string'},
+    'Quantity':         {'type': 'numeric', 'precision': 'positive_int', 'consistency': lambda x: x > 0},
+    'InvoiceDate':      {'type': 'datetime','precision': 'hourly'},
+    'UnitPrice':        {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x > 0},
+    'CustomerID':       {'type': 'numeric', 'consistency': lambda x: x > 0},
+    'Country':          {'type': 'string',  'consistency': r'^[A-Za-z\s]+$'},
+    'Discount':         {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: 0 <= x <= 100},
+    'PaymentMethod':    {'type': 'string',  'consistency': r'^(Credit Card|Paypal|Bank Transfer)$'},
+    'ShippingCost':     {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x >= 0},
+    'Category':         {'type': 'string'},
+    'SalesChannel':     {'type': 'string',  'consistency': r'^(Online|In-store)$'},
+    'ReturnStatus':     {'type': 'string',  'consistency': r'^(Not Returned|Returned)$'},
+    'ShipmentProvider': {'type': 'string'},
     'WarehouseLocation':{'type':'string'},
-    'OrderPriority':   {'type': 'string',  'consistency': r'^(Low|Medium|High)$'},
-    'GDP':             {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x >= 0},
-    'GDP_per_capita':  {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x >= 0}
+    'OrderPriority':    {'type': 'string',  'consistency': r'^(Low|Medium|High)$'},
+    'GDP':              {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x >= 0},
+    'GDP_per_capita':   {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x >= 0},
+    'EstimatedCost':    {'type': 'numeric', 'precision': 'decimal_2', 'consistency': lambda x: x >= 0}
 }
 
 def calculate_quality(series, dtype, precision=None, consistency=None):

@@ -1,201 +1,201 @@
-InvoiceNo;StockCode;ArticleName;Quantity;InvoiceDate;UnitPrice;CustomerID;Country;Discount;PaymentMethod;ShippingCost;Category;SalesChannel;ReturnStatus;ShipmentProvider;WarehouseLocation;OrderPriority;GDP;GDP_per_capita
-100005;SKU_1312;Wireless Mouse;45;2022-01-12 19:00:00;57.66;88722;NOR;0.16;Credit Card;26.38;Accessories;Online;Not Returned;UPS;Paris;Low;434497344228.61;109269.52
-100015;SKU_1084;Notebook;2;2021-11-05 16:00:00;44.83;73709;DEU;0.18;Paypal;0.00;Apparel;In-store;Not Returned;Store;Amsterdam;Low;3652205602904.36;52265.65
-100037;SKU_1678;Notebook;42;2021-06-05 09:00:00;42.07;55846;NLD;0.15;Paypal;0.00;Electronics;In-store;Not Returned;Store;Paris;Low;872809729132.84;60141.99
-100056;SKU_1860;Desk Lamp;3;2023-07-01 17:00:00;55.06;20877;ITA;0.19;Paypal;16.49;Stationery;Online;Not Returned;DHL;London;Low;2014392567519.09;39065.42
-100059;SKU_1058;Notebook;24;2024-10-21 14:00:00;49.18;18268;ITA;0.16;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Amsterdam;Medium;2029012875282.16;40226.05
-100064;SKU_1976;White Mug;46;2021-12-30 21:00:00;65.68;30998;BEL;0.39;Paypal;0.00;Electronics;In-store;Not Returned;Store;Paris;Low;499619240040.64;51658.24
-100068;SKU_1502;Desk Lamp;31;2022-11-24 21:00:00;44.23;71947;NOR;0.35;Paypal;28.86;Accessories;Online;Not Returned;UPS;London;High;434497344228.61;109269.52
-100126;SKU_1093;Office Chair;5;2020-02-27 19:00:00;35.69;18132;GBR;0.27;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;2831893577011.53;40404.81
-100157;SKU_1580;Blue Pen;17;2025-07-01 15:00:00;49.67;72935;SWE;0.01;Bank Transfer;7.40;Stationery;Online;Not Returned;UPS;London;High;567227918083.31;61174.97
-100159;SKU_1776;Desk Lamp;25;2020-07-04 02:00:00;63.57;13854;AUS;0.23;Credit Card;26.29;Electronics;Online;Not Returned;DHL;London;Medium;1491062566266.52;51791.54
-100184;SKU_1662;Headphones;30;2023-02-04 09:00:00;65.30;78675;PRT;0.39;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;Low;236012868833.62;27386.29
-100188;SKU_1844;Office Chair;13;2025-03-10 06:00:00;47.47;94505;ESP;0.02;Bank Transfer;17.32;Stationery;Online;Not Returned;FedEx;Berlin;High;1267004457826.92;30799.48
-100189;SKU_1702;Blue Pen;38;2022-11-12 12:00:00;49.20;23470;ITA;0.36;Paypal;11.94;Accessories;Online;Not Returned;DHL;London;Medium;2000084512919.56;35653.90
-100203;SKU_1398;Wireless Mouse;26;2024-05-11 18:00:00;62.95;19504;AUS;0.20;Paypal;0.00;Apparel;In-store;Not Returned;Store;Amsterdam;Low;1665257959985.00;64407.48
-100209;SKU_1029;USB Cable;2;2021-07-03 00:00:00;47.11;14548;ESP;0.37;Bank Transfer;12.97;Electronics;Online;Not Returned;FedEx;London;Medium;1267004457826.92;30799.48
-100215;SKU_1951;Backpack;11;2020-12-05 04:00:00;53.30;65952;AUS;0.26;Paypal;0.00;Electronics;In-store;Not Returned;Store;Rome;Low;1491062566266.52;51791.54
-100229;SKU_1469;Backpack;24;2025-06-06 10:00:00;41.57;24421;BEL;0.40;Paypal;0.00;Apparel;In-store;Not Returned;Store;Rome;High;516074948234.85;53806.42
-100294;SKU_1767;USB Cable;39;2021-03-16 15:00:00;36.85;29274;ITA;0.00;Credit Card;0.00;Accessories;In-store;Returned;Store;Berlin;Low;1908092024820.83;36852.54
-100318;SKU_1054;Backpack;38;2023-10-26 01:00:00;48.26;23728;FRA;0.34;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;Low;2671234714486.56;44690.93
-100357;SKU_1798;Desk Lamp;1;2024-12-23 04:00:00;48.38;10678;FRA;0.16;Credit Card;16.91;Stationery;Online;Returned;Royal Mail;London;High;2702385011317.50;46150.49
-100404;SKU_1467;Office Chair;27;2020-02-08 07:00:00;43.17;22922;ESP;0.19;Bank Transfer;9.82;Furniture;Online;Returned;Royal Mail;Paris;Low;1187633217292.02;27233.94
-100415;SKU_1912;Wireless Mouse;1;2022-10-17 13:00:00;44.43;47573;GBR;0.09;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Amsterdam;Medium;3223545410805.62;46062.99
-100434;SKU_1100;Office Chair;34;2024-07-29 03:00:00;48.66;60774;FRA;0.34;Bank Transfer;0.00;Stationery;In-store;Not Returned;Store;Berlin;Medium;2702385011317.50;46150.49
-100443;SKU_1328;Blue Pen;45;2025-07-02 04:00:00;44.98;67793;FRA;0.38;Credit Card;20.71;Accessories;Online;Not Returned;UPS;Paris;High;2686809862902.03;45420.71
-100515;SKU_1704;Blue Pen;44;2020-11-21 15:00:00;65.31;12440;NOR;0.01;Paypal;21.99;Accessories;Online;Not Returned;FedEx;Berlin;Medium;405005642242.72;68340.02
-100537;SKU_1438;Notebook;18;2024-05-07 20:00:00;44.97;48614;DEU;0.37;Paypal;18.37;Furniture;Online;Not Returned;Royal Mail;Rome;Low;3683559545240.29;55800.22
-100559;SKU_1113;Notebook;49;2021-06-04 21:00:00;61.46;42272;GBR;0.11;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Berlin;Low;3074755378978.02;46926.48
-100570;SKU_1474;Wall Clock;42;2024-06-18 13:00:00;32.20;23834;BEL;0.44;Credit Card;16.52;Electronics;Online;Not Returned;UPS;Berlin;Medium;532530656429.07;55954.61
-100599;SKU_1959;Office Chair;10;2023-08-23 01:00:00;35.85;55820;GBR;0.45;Paypal;29.40;Apparel;Online;Not Returned;UPS;London;Low;3236345540532.38;49200.81
-100607;SKU_1909;Desk Lamp;27;2024-07-03 11:00:00;55.48;98293;BEL;0.38;Bank Transfer;21.02;Electronics;Online;Not Returned;Royal Mail;Amsterdam;Low;532530656429.07;55954.61
-100615;SKU_1871;Wireless Mouse;11;2022-07-05 03:00:00;56.25;78437;GBR;0.32;Credit Card;0.00;Stationery;In-store;Not Returned;Store;Rome;High;3223545410805.62;46062.99
-100617;SKU_1429;T-shirt;42;2024-04-21 18:00:00;59.28;88215;AUS;0.42;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;High;1665257959985.00;64407.48
-100637;SKU_1166;Desk Lamp;30;2023-02-08 03:00:00;44.71;61285;FRA;0.42;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;High;2671234714486.56;44690.93
-100638;SKU_1669;Backpack;33;2023-02-03 01:00:00;54.05;34084;AUS;0.00;Credit Card;0.00;Accessories;In-store;Returned;Store;Amsterdam;Medium;1641762491418.85;64835.92
-100654;SKU_1420;White Mug;40;2021-01-04 12:00:00;61.33;43575;GBR;0.22;Credit Card;0.00;Stationery;In-store;Not Returned;Store;London;Medium;3074755378978.02;46926.48
-100727;SKU_1334;Desk Lamp;11;2021-03-07 12:00:00;51.82;91019;ITA;0.35;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;High;1908092024820.83;36852.54
-100799;SKU_1336;White Mug;33;2021-07-16 22:00:00;47.51;40141;NLD;0.18;Paypal;16.43;Furniture;Online;Not Returned;UPS;Rome;Low;872809729132.84;60141.99
-100801;SKU_1306;Office Chair;46;2021-05-03 18:00:00;51.94;53963;BEL;0.31;Bank Transfer;22.33;Apparel;Online;Not Returned;DHL;London;High;499619240040.64;51658.24
-100814;SKU_1288;Desk Lamp;16;2023-01-11 17:00:00;47.58;96572;PRT;0.46;Bank Transfer;0.00;Apparel;In-store;Returned;Store;Paris;High;236012868833.62;27386.29
-100819;SKU_1209;T-shirt;43;2025-02-04 18:00:00;52.72;98499;USA;0.07;Paypal;7.89;Apparel;Online;Not Returned;Royal Mail;Paris;Medium;19723580221938.20;64401.51
-100837;SKU_1868;Blue Pen;25;2024-09-22 17:00:00;44.95;54558;DEU;0.09;Credit Card;29.54;Electronics;Online;Returned;UPS;Berlin;Medium;3683559545240.29;55800.22
-100882;SKU_1799;Backpack;33;2020-12-26 19:00:00;55.23;31728;USA;0.33;Paypal;20.92;Apparel;Online;Not Returned;Royal Mail;Rome;High;19723580221938.20;64401.51
-100901;SKU_1113;Notebook;12;2020-11-18 18:00:00;61.46;91928;NLD;0.31;Bank Transfer;15.69;Electronics;Online;Not Returned;FedEx;London;Medium;821260592382.70;53467.93
-100917;SKU_1944;Desk Lamp;36;2020-09-04 04:00:00;45.55;97311;USA;0.11;Credit Card;0.00;Stationery;In-store;Not Returned;Store;London;Medium;19723580221938.20;64401.51
-100944;SKU_1639;Wall Clock;7;2021-11-01 07:00:00;49.23;57199;SWE;0.43;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Amsterdam;Low;567227918083.31;61174.97
-101010;SKU_1826;Wall Clock;32;2022-05-08 19:00:00;46.59;28277;NLD;0.37;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;916513359459.67;59123.32
-101049;SKU_1300;Headphones;29;2021-10-10 12:00:00;64.89;11207;SWE;0.43;Bank Transfer;23.06;Apparel;Online;Not Returned;UPS;Rome;High;567227918083.31;61174.97
-101051;SKU_1948;Headphones;13;2020-09-22 00:00:00;53.84;78297;BEL;0.25;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Rome;Medium;470417598101.76;45906.29
-101063;SKU_1304;Office Chair;2;2024-05-26 09:00:00;51.77;83677;BEL;0.07;Paypal;0.00;Electronics;In-store;Not Returned;Store;Rome;Medium;532530656429.07;55954.61
-101067;SKU_1271;Headphones;8;2024-06-05 11:00:00;56.01;98610;FRA;0.04;Paypal;25.34;Furniture;Online;Not Returned;Royal Mail;Berlin;High;2702385011317.50;46150.49
-101076;SKU_1904;Headphones;40;2023-10-24 23:00:00;50.80;40962;ITA;0.29;Credit Card;21.78;Electronics;Online;Not Returned;UPS;London;Low;2014392567519.09;39065.42
-101082;SKU_1031;Desk Lamp;23;2022-02-03 17:00:00;45.95;83462;AUS;0.34;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Paris;High;1587133480804.53;64997.01
-101083;SKU_1028;Backpack;36;2023-06-10 21:00:00;43.85;67186;BEL;0.11;Credit Card;5.39;Apparel;Online;Not Returned;DHL;Berlin;Low;527159436181.93;54690.09
-101085;SKU_1170;Desk Lamp;34;2022-11-18 08:00:00;46.25;36887;NLD;0.32;Credit Card;28.13;Accessories;Online;Not Returned;DHL;Amsterdam;Medium;916513359459.67;59123.32
-101095;SKU_1186;Desk Lamp;34;2021-07-07 20:00:00;50.18;66347;USA;0.08;Bank Transfer;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;High;20917853444668.30;71307.40
-101132;SKU_1789;USB Cable;15;2021-02-14 20:00:00;53.78;53722;FRA;0.26;Paypal;0.00;Accessories;In-store;Not Returned;Store;Berlin;Medium;2580120255051.75;43725.10
-101147;SKU_1292;T-shirt;31;2024-11-22 07:00:00;41.22;66117;BEL;0.01;Bank Transfer;23.67;Accessories;Online;Not Returned;Royal Mail;Paris;Medium;532530656429.07;55954.61
-101177;SKU_1571;Wall Clock;29;2024-01-10 05:00:00;45.49;50317;GBR;0.11;Bank Transfer;27.35;Stationery;Online;Not Returned;FedEx;Amsterdam;Low;3271966955942.46;52636.79
-101207;SKU_1421;Notebook;33;2023-11-04 18:00:00;55.42;55291;ESP;0.10;Bank Transfer;26.03;Apparel;Online;Not Returned;FedEx;London;Low;1381292228958.21;33509.01
-101223;SKU_1265;Backpack;23;2022-06-30 11:00:00;45.41;44311;ESP;0.03;Paypal;9.25;Accessories;Online;Not Returned;DHL;Berlin;Low;1345296618859.67;30270.27
-101229;SKU_1089;Desk Lamp;32;2024-08-07 15:00:00;41.71;29069;AUS;0.21;Paypal;8.25;Apparel;Online;Not Returned;DHL;Berlin;Medium;1665257959985.00;64407.48
-101252;SKU_1486;T-shirt;45;2020-02-10 12:00:00;45.16;94427;NLD;0.36;Paypal;0.00;Stationery;In-store;Not Returned;Store;London;Medium;821260592382.70;53467.93
-101304;SKU_1399;T-shirt;34;2023-01-24 23:00:00;63.78;43583;PRT;0.34;Bank Transfer;12.91;Stationery;Online;Not Returned;DHL;Rome;High;236012868833.62;27386.29
-101316;SKU_1216;Desk Lamp;23;2022-09-06 19:00:00;55.17;78945;NLD;0.07;Paypal;20.31;Electronics;Online;Not Returned;UPS;London;Medium;916513359459.67;59123.32
-101355;SKU_1672;Blue Pen;18;2023-06-15 08:00:00;62.93;44132;ITA;0.15;Bank Transfer;17.85;Apparel;Online;Returned;FedEx;Amsterdam;Low;2014392567519.09;39065.42
-101363;SKU_1741;Wall Clock;22;2024-08-07 21:00:00;44.78;54213;USA;0.50;Credit Card;17.52;Electronics;Online;Not Returned;DHL;Amsterdam;Medium;22679489969555.60;85809.90
-101378;SKU_1458;Backpack;24;2023-06-19 06:00:00;58.71;46200;NOR;0.33;Paypal;0.00;Accessories;In-store;Not Returned;Store;Rome;Medium;434810705801.47;87497.33
-101379;SKU_1560;Blue Pen;46;2021-11-16 08:00:00;47.85;14070;FRA;0.29;Credit Card;0.00;Apparel;In-store;Not Returned;Store;London;Low;2580120255051.75;43725.10
-101425;SKU_1773;Headphones;30;2024-10-07 10:00:00;48.48;25314;SWE;0.04;Paypal;16.76;Apparel;Online;Not Returned;FedEx;Amsterdam;Low;580446460657.16;57723.23
-101468;SKU_1311;White Mug;31;2021-02-20 23:00:00;42.81;28181;USA;0.03;Credit Card;26.41;Apparel;Online;Not Returned;Royal Mail;London;Low;20917853444668.30;71307.40
-101495;SKU_1345;Wall Clock;42;2025-01-17 21:00:00;59.89;74739;ESP;0.49;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;High;1266464918075.84;28752.11
-101515;SKU_1495;Backpack;17;2020-11-25 19:00:00;48.60;32353;AUS;0.13;Credit Card;5.32;Stationery;Online;Returned;UPS;Paris;High;1491062566266.52;51791.54
-101532;SKU_1997;USB Cable;24;2022-03-10 12:00:00;54.31;93241;PRT;0.29;Bank Transfer;22.30;Apparel;Online;Not Returned;DHL;London;High;230002605108.71;24620.52
-101539;SKU_1214;Office Chair;19;2020-11-02 08:00:00;40.05;98580;GBR;0.17;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;Medium;2831893577011.53;40404.81
-101577;SKU_1273;USB Cable;14;2020-11-26 16:00:00;40.19;85115;DEU;0.10;Credit Card;7.38;Stationery;Online;Not Returned;UPS;London;High;3522914639711.92;47379.77
-101585;SKU_1514;Backpack;12;2024-08-30 17:00:00;46.17;27887;BEL;0.02;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;Medium;532530656429.07;55954.61
-101593;SKU_1519;Blue Pen;3;2024-12-23 11:00:00;51.51;40631;USA;0.27;Paypal;0.00;Electronics;In-store;Not Returned;Store;Rome;High;22679489969555.60;85809.90
-101607;SKU_1451;Office Chair;10;2022-05-16 12:00:00;58.45;44519;ITA;0.48;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;2000084512919.56;35653.90
-101620;SKU_1257;Backpack;8;2021-02-15 21:00:00;50.38;47431;ITA;0.42;Bank Transfer;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;High;1908092024820.83;36852.54
-101634;SKU_1743;Backpack;44;2023-08-24 09:00:00;45.41;96937;AUS;0.05;Credit Card;19.61;Stationery;Online;Not Returned;Royal Mail;Amsterdam;High;1641762491418.85;64835.92
-101650;SKU_1470;Desk Lamp;46;2024-11-24 06:00:00;58.62;90592;NLD;0.10;Paypal;0.00;Apparel;In-store;Not Returned;Store;Paris;High;926182265714.10;68218.73
-101658;SKU_1472;Headphones;12;2022-07-23 03:00:00;51.55;66392;DEU;0.35;Credit Card;21.53;Accessories;Online;Not Returned;DHL;Berlin;High;3702230996915.75;49686.12
-101676;SKU_1420;White Mug;40;2024-06-04 23:00:00;61.33;65328;GBR;0.41;Bank Transfer;0.00;Stationery;In-store;Returned;Store;Berlin;High;3271966955942.46;52636.79
-101722;SKU_1619;T-shirt;34;2023-12-17 17:00:00;49.65;15539;GBR;0.39;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;3236345540532.38;49200.81
-101745;SKU_1847;Backpack;22;2023-02-15 22:00:00;47.14;21215;PRT;0.41;Paypal;16.93;Accessories;Online;Not Returned;UPS;Rome;Medium;236012868833.62;27386.29
-101755;SKU_1769;Wall Clock;46;2024-05-25 05:00:00;53.20;17689;DEU;0.08;Bank Transfer;13.74;Accessories;Online;Not Returned;DHL;Berlin;Low;3683559545240.29;55800.22
-101825;SKU_1853;Blue Pen;7;2023-04-29 11:00:00;53.20;52074;BEL;0.18;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Rome;High;527159436181.93;54690.09
-101832;SKU_1059;Backpack;22;2021-10-22 19:00:00;50.17;96868;DEU;0.48;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Amsterdam;Low;3652205602904.36;52265.65
-101845;SKU_1398;Wireless Mouse;41;2022-01-29 14:00:00;62.95;20319;USA;0.11;Bank Transfer;12.49;Apparel;Online;Not Returned;FedEx;Paris;Medium;21443388432051.00;77860.91
-101881;SKU_1381;T-shirt;22;2020-10-10 22:00:00;47.31;95653;DEU;0.11;Bank Transfer;15.35;Accessories;Online;Not Returned;Royal Mail;Paris;Medium;3522914639711.92;47379.77
-101903;SKU_1222;T-shirt;37;2024-03-29 22:00:00;43.24;88118;AUS;0.24;Bank Transfer;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;High;1665257959985.00;64407.48
-101906;SKU_1408;Desk Lamp;14;2021-03-02 09:00:00;41.52;43162;NOR;0.43;Bank Transfer;14.43;Apparel;Online;Not Returned;DHL;London;Low;420836044191.96;93072.89
-101917;SKU_1859;Headphones;4;2020-02-20 08:00:00;46.92;51654;SWE;0.37;Credit Card;0.00;Stationery;In-store;Not Returned;Store;Paris;Low;535436339440.59;52653.76
-101919;SKU_1971;Office Chair;29;2021-09-25 20:00:00;66.47;93557;BEL;0.11;Paypal;0.00;Accessories;In-store;Not Returned;Store;London;High;499619240040.64;51658.24
-101980;SKU_1258;Headphones;25;2024-05-08 00:00:00;54.98;94639;GBR;0.29;Credit Card;13.81;Electronics;Online;Returned;DHL;Amsterdam;High;3271966955942.46;52636.79
-102016;SKU_1407;T-shirt;19;2021-11-09 14:00:00;52.02;70374;BEL;0.30;Credit Card;24.83;Accessories;Online;Not Returned;UPS;Amsterdam;Low;499619240040.64;51658.24
-102075;SKU_1953;T-shirt;34;2025-01-12 01:00:00;50.60;28811;SWE;0.17;Credit Card;6.48;Stationery;Online;Not Returned;UPS;Rome;High;557941400048.87;55188.50
-102078;SKU_1051;White Mug;23;2024-09-30 12:00:00;60.96;89752;GBR;0.35;Bank Transfer;0.00;Furniture;In-store;Not Returned;Store;Paris;Medium;3271966955942.46;52636.79
-102127;SKU_1635;Wall Clock;46;2024-04-19 17:00:00;45.53;95086;SWE;0.23;Paypal;0.00;Furniture;In-store;Not Returned;Store;Berlin;High;580446460657.16;57723.23
-102159;SKU_1521;Desk Lamp;15;2020-11-17 22:00:00;54.00;30140;BEL;0.01;Credit Card;0.00;Apparel;In-store;Not Returned;Store;London;Low;470417598101.76;45906.29
-102187;SKU_1289;Desk Lamp;31;2020-08-16 06:00:00;41.03;73828;SWE;0.44;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Berlin;Low;535436339440.59;52653.76
-102221;SKU_1867;Blue Pen;5;2024-08-02 18:00:00;51.47;77443;FRA;0.00;Credit Card;12.47;Apparel;Online;Not Returned;UPS;Amsterdam;Low;2702385011317.50;46150.49
-102257;SKU_1814;Backpack;38;2020-07-09 01:00:00;41.27;61629;SWE;0.13;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;Medium;535436339440.59;52653.76
-102292;SKU_1654;Backpack;17;2024-04-26 17:00:00;50.93;24149;AUS;0.05;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Amsterdam;High;1665257959985.00;64407.48
-102352;SKU_1587;Desk Lamp;7;2020-06-23 12:00:00;34.37;28921;ESP;0.05;Credit Card;0.00;Stationery;In-store;Not Returned;Store;London;High;1187633217292.02;27233.94
-102355;SKU_1799;Backpack;16;2023-01-09 23:00:00;55.23;98500;AUS;0.28;Paypal;0.00;Apparel;In-store;Not Returned;Store;Amsterdam;High;1641762491418.85;64835.92
-102387;SKU_1400;Wall Clock;42;2024-07-16 08:00:00;57.02;58619;NOR;0.01;Credit Card;7.13;Accessories;Online;Not Returned;UPS;Amsterdam;Medium;443943701526.20;86809.72
-102405;SKU_1099;Backpack;9;2024-06-02 12:00:00;47.65;64816;DEU;0.24;Paypal;0.00;Apparel;In-store;Not Returned;Store;Rome;Medium;3683559545240.29;55800.22
-102419;SKU_1668;USB Cable;31;2021-08-31 03:00:00;46.45;57382;ESP;0.20;Bank Transfer;18.22;Stationery;Online;Not Returned;DHL;Rome;High;1267004457826.92;30799.48
-102431;SKU_1738;USB Cable;8;2021-05-22 04:00:00;43.52;23415;ITA;0.35;Credit Card;14.78;Apparel;Online;Not Returned;UPS;Paris;Medium;1908092024820.83;36852.54
-102438;SKU_1820;Blue Pen;1;2022-10-02 19:00:00;51.74;16555;NOR;0.47;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Amsterdam;Low;434497344228.61;109269.52
-102469;SKU_1558;Blue Pen;33;2025-04-27 01:00:00;39.01;41226;SWE;0.47;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Paris;High;555470874650.07;53975.35
-102479;SKU_1886;T-shirt;37;2023-10-27 11:00:00;51.40;27159;NOR;0.11;Paypal;0.00;Furniture;In-store;Not Returned;Store;London;High;434810705801.47;87497.33
-102496;SKU_1072;Wireless Mouse;43;2025-05-12 03:00:00;52.77;11842;NLD;0.04;Bank Transfer;23.32;Accessories;Online;Not Returned;Royal Mail;Amsterdam;Medium;899495997423.47;64180.36
-102521;SKU_1725;Headphones;34;2024-07-08 05:00:00;61.90;28955;FRA;0.30;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Rome;High;2702385011317.50;46150.49
-102526;SKU_1449;T-shirt;46;2021-10-24 09:00:00;45.75;19776;NLD;0.08;Bank Transfer;14.49;Electronics;Online;Not Returned;DHL;London;High;872809729132.84;60141.99
-102589;SKU_1337;White Mug;24;2022-05-10 21:00:00;60.12;25235;GBR;0.04;Paypal;10.59;Stationery;Online;Returned;Royal Mail;Rome;Medium;3223545410805.62;46062.99
-102590;SKU_1849;Backpack;45;2023-03-20 00:00:00;53.58;49748;NLD;0.41;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Berlin;Medium;917196719472.46;64572.01
-102594;SKU_1892;Blue Pen;44;2023-05-11 07:00:00;43.05;36777;AUS;0.00;Paypal;18.97;Apparel;Online;Not Returned;Royal Mail;London;Medium;1641762491418.85;64835.92
-102631;SKU_1030;Headphones;32;2021-12-31 19:00:00;49.35;16132;PRT;0.04;Credit Card;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;214984152369.52;24711.45
-102639;SKU_1764;White Mug;45;2024-05-18 16:00:00;58.16;12636;DEU;0.08;Bank Transfer;27.83;Stationery;Online;Returned;Royal Mail;Berlin;High;3683559545240.29;55800.22
-102700;SKU_1308;Backpack;34;2023-09-30 17:00:00;64.86;29628;NLD;0.10;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;London;Medium;917196719472.46;64572.01
-102763;SKU_1392;T-shirt;28;2020-08-23 20:00:00;37.09;19357;PRT;0.09;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Amsterdam;High;203663018608.84;22299.40
-102765;SKU_1106;Wireless Mouse;11;2021-03-18 03:00:00;55.56;67813;NOR;0.11;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Rome;Low;420836044191.96;93072.89
-102775;SKU_1345;Wall Clock;22;2020-09-08 18:00:00;59.89;73240;PRT;0.32;Paypal;0.00;Accessories;In-store;Not Returned;Store;Rome;Low;203663018608.84;22299.40
-102781;SKU_1909;Desk Lamp;8;2023-01-21 13:00:00;55.48;48740;ESP;0.48;Credit Card;21.15;Electronics;Online;Returned;DHL;Rome;High;1381292228958.21;33509.01
-102853;SKU_1422;Backpack;39;2023-02-17 20:00:00;54.94;35263;GBR;0.13;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Paris;High;3236345540532.38;49200.81
-102869;SKU_1354;White Mug;32;2020-01-16 01:00:00;44.61;37314;BEL;0.04;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;Medium;470417598101.76;45906.29
-102883;SKU_1740;Wireless Mouse;8;2025-01-17 09:00:00;56.90;47573;GBR;0.10;Paypal;20.11;Electronics;Online;Not Returned;UPS;London;Medium;3155550459755.20;48063.64
-102921;SKU_1820;Blue Pen;20;2021-10-16 19:00:00;51.74;59396;AUS;0.07;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;1522541404227.63;60607.78
-102928;SKU_1973;USB Cable;1;2022-03-19 04:00:00;46.85;30661;SWE;0.03;Paypal;19.41;Stationery;Online;Not Returned;DHL;Paris;Low;575505409859.56;55296.94
-102948;SKU_1229;White Mug;23;2024-04-06 01:00:00;66.16;10783;FRA;0.07;Bank Transfer;21.15;Electronics;In-store;Not Returned;Royal Mail;Amsterdam;Low;2702385011317.50;46150.49
-102948;SKU_1051;White Mug;9;2024-04-06 01:00:00;60.96;10783;FRA;0.37;Bank Transfer;0.00;Furniture;In-store;Not Returned;Royal Mail;Amsterdam;Low;2702385011317.50;46150.49
-102988;SKU_1385;Wall Clock;16;2022-10-19 22:00:00;53.14;89826;BEL;0.22;Paypal;0.00;Furniture;In-store;Not Returned;Store;London;Medium;520899825783.06;50822.25
-102998;SKU_1461;Wall Clock;40;2023-02-22 19:00:00;47.23;52859;PRT;0.03;Credit Card;7.60;Stationery;Online;Not Returned;FedEx;London;High;236012868833.62;27386.29
-103005;SKU_1748;Wireless Mouse;23;2023-05-08 15:00:00;50.18;13964;NLD;0.48;Bank Transfer;15.24;Electronics;Online;Not Returned;Royal Mail;Berlin;Low;917196719472.46;64572.01
-103051;SKU_1328;Blue Pen;10;2020-01-22 03:00:00;44.98;30573;ITA;0.23;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Amsterdam;High;1751650987235.43;32091.49
-103052;SKU_1694;Office Chair;30;2022-01-18 23:00:00;54.41;58027;PRT;0.47;Paypal;0.00;Furniture;In-store;Not Returned;Store;Paris;Low;230002605108.71;24620.52
-103060;SKU_1725;Headphones;35;2021-09-23 18:00:00;61.90;50999;AUS;0.16;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Rome;High;1522541404227.63;60607.78
-103089;SKU_1981;Blue Pen;2;2020-12-24 09:00:00;55.38;47303;DEU;0.40;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;Medium;3522914639711.92;47379.77
-103098;SKU_1071;Blue Pen;2;2021-11-19 14:00:00;38.56;38359;ESP;0.00;Credit Card;27.12;Electronics;Online;Returned;UPS;Amsterdam;High;1267004457826.92;30799.48
-103111;SKU_1677;White Mug;12;2024-08-06 19:00:00;51.94;41316;NOR;0.41;Paypal;24.50;Apparel;Online;Not Returned;UPS;London;Low;443943701526.20;86809.72
-103114;SKU_1010;USB Cable;24;2020-12-14 14:00:00;57.22;59318;FRA;0.47;Credit Card;5.49;Apparel;Online;Not Returned;FedEx;Rome;Low;2413981867676.36;39169.86
-103159;SKU_1731;Office Chair;2;2022-12-22 06:00:00;56.07;47024;ESP;0.42;Paypal;0.00;Apparel;In-store;Not Returned;Store;Berlin;High;1345296618859.67;30270.27
-103174;SKU_1281;T-shirt;36;2020-12-14 22:00:00;46.48;22990;NOR;0.08;Bank Transfer;27.14;Electronics;Online;Not Returned;UPS;Rome;Medium;405005642242.72;68340.02
-103191;SKU_1259;Blue Pen;23;2020-05-05 20:00:00;47.06;80522;FRA;0.21;Paypal;14.12;Stationery;Online;Returned;DHL;Amsterdam;Low;2413981867676.36;39169.86
-103196;SKU_1541;Wireless Mouse;42;2021-04-26 16:00:00;44.13;46057;ESP;0.01;Credit Card;0.00;Apparel;In-store;Not Returned;Store;London;High;1267004457826.92;30799.48
-103212;SKU_1970;White Mug;3;2021-12-03 03:00:00;64.57;87642;ESP;0.27;Credit Card;0.00;Apparel;In-store;Not Returned;Store;Paris;High;1267004457826.92;30799.48
-103247;SKU_1033;Headphones;12;2025-01-16 17:00:00;58.30;16291;FRA;0.02;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;London;Medium;2497051061364.05;41447.48
-103267;SKU_1714;Notebook;20;2020-01-28 10:00:00;50.23;74911;SWE;0.01;Bank Transfer;28.39;Apparel;Online;Not Returned;Royal Mail;Berlin;Medium;535436339440.59;52653.76
-103285;SKU_1249;Blue Pen;35;2021-03-19 08:00:00;45.49;27098;ESP;0.01;Paypal;8.57;Apparel;Online;Not Returned;Royal Mail;Berlin;Low;1267004457826.92;30799.48
-103317;SKU_1025;Blue Pen;37;2021-01-12 12:00:00;58.58;23276;GBR;0.12;Credit Card;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;High;3074755378978.02;46926.48
-103321;SKU_1326;Blue Pen;2;2023-09-16 08:00:00;50.59;72457;USA;0.09;Paypal;8.32;Electronics;Online;Returned;UPS;Amsterdam;Medium;22062578283266.80;82304.62
-103340;SKU_1112;T-shirt;15;2025-01-25 12:00:00;53.43;85232;NOR;0.42;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Berlin;Low;412920843217.34;80706.46
-103358;SKU_1878;Blue Pen;40;2020-09-23 21:00:00;53.94;46144;SWE;0.15;Credit Card;7.09;Apparel;Online;Returned;UPS;Rome;Low;535436339440.59;52653.76
-103376;SKU_1840;Notebook;46;2022-08-15 15:00:00;55.11;14461;ESP;0.21;Paypal;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;1345296618859.67;30270.27
-103400;SKU_1967;Wall Clock;2;2024-02-17 16:00:00;43.97;21238;USA;0.43;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;22679489969555.60;85809.90
-103411;SKU_1600;Blue Pen;19;2025-02-15 03:00:00;58.78;76414;USA;0.06;Paypal;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;Low;22679489969555.60;85809.90
-103413;SKU_1559;Notebook;15;2023-10-05 19:00:00;57.95;53476;AUS;0.22;Credit Card;19.84;Accessories;Online;Not Returned;DHL;Amsterdam;Low;1641762491418.85;64835.92
-103420;SKU_1427;Office Chair;40;2021-10-26 08:00:00;39.45;93682;NOR;0.14;Paypal;27.39;Furniture;Online;Not Returned;UPS;Rome;Low;420836044191.96;93072.89
-103436;SKU_1950;Backpack;37;2022-07-31 05:00:00;46.12;93124;BEL;0.13;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Rome;Medium;520899825783.06;50822.25
-103449;SKU_1971;Office Chair;42;2025-05-27 17:00:00;66.47;84035;DEU;0.46;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Rome;High;3607640735775.75;50660.09
-103468;SKU_1745;T-shirt;46;2023-07-27 05:00:00;51.51;40712;GBR;0.37;Paypal;0.00;Stationery;In-store;Not Returned;Store;Berlin;Medium;3236345540532.38;49200.81
-103474;SKU_1796;Office Chair;5;2025-01-05 01:00:00;61.32;13836;ESP;0.14;Credit Card;0.00;Apparel;In-store;Not Returned;Store;Paris;High;1345296618859.67;30270.27
-103485;SKU_1659;Office Chair;44;2024-12-30 13:00:00;23.81;96286;USA;0.25;Paypal;7.94;Electronics;Online;Not Returned;UPS;Amsterdam;High;22679489969555.60;85809.90
-103487;SKU_1682;Backpack;32;2022-07-18 18:00:00;41.23;61490;ESP;0.17;Bank Transfer;24.31;Furniture;Online;Not Returned;UPS;Berlin;Medium;1345296618859.67;30270.27
-103498;SKU_1260;White Mug;44;2023-12-14 22:00:00;45.21;63141;PRT;0.50;Bank Transfer;21.48;Furniture;Online;Not Returned;Royal Mail;Rome;High;236012868833.62;27386.29
-103514;SKU_1456;Office Chair;2;2023-05-23 10:00:00;40.60;44243;ITA;0.35;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Paris;High;2014392567519.09;39065.42
-103515;SKU_1706;Wall Clock;3;2022-01-09 13:00:00;50.42;54850;NLD;0.38;Bank Transfer;13.36;Furniture;Online;Not Returned;Royal Mail;Berlin;Low;916513359459.67;59123.32
-103532;SKU_1306;Office Chair;20;2023-10-05 10:00:00;51.94;94165;PRT;0.44;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Berlin;High;236012868833.62;27386.29
-103543;SKU_1334;Desk Lamp;36;2023-07-16 04:00:00;51.82;22790;NLD;0.43;Paypal;19.06;Accessories;Online;Not Returned;DHL;Paris;High;917196719472.46;64572.01
-103573;SKU_1989;Headphones;42;2023-09-08 23:00:00;41.30;56621;USA;0.32;Credit Card;29.38;Accessories;Online;Returned;UPS;Amsterdam;Low;22062578283266.80;82304.62
-103590;SKU_1333;Desk Lamp;23;2023-05-18 00:00:00;43.32;94637;PRT;0.24;Paypal;0.00;Accessories;In-store;Not Returned;Store;Paris;Low;236012868833.62;27386.29
-103599;SKU_1937;Backpack;47;2022-02-20 04:00:00;64.35;95547;SWE;0.09;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;High;575505409859.56;55296.94
-103608;SKU_1165;T-shirt;9;2023-07-12 01:00:00;46.61;50862;SWE;0.47;Paypal;0.00;Apparel;In-store;Not Returned;Store;Berlin;Medium;574848401745.34;55567.09
-103625;SKU_1180;White Mug;36;2022-06-30 09:00:00;48.66;49557;PRT;0.09;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;London;Low;230002605108.71;24620.52
-103626;SKU_1699;Headphones;49;2021-01-15 13:00:00;45.21;41006;ESP;0.14;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Rome;Low;1267004457826.92;30799.48
-103654;SKU_1653;Notebook;47;2023-07-06 19:00:00;52.19;78128;NLD;0.10;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;917196719472.46;64572.01
-103681;SKU_1904;Headphones;4;2021-01-08 11:00:00;50.80;20025;SWE;0.44;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;High;567227918083.31;61174.97
-103687;SKU_1087;Blue Pen;19;2024-06-30 05:00:00;46.78;38383;GBR;0.44;Paypal;0.00;Apparel;In-store;Not Returned;Store;Rome;Medium;3271966955942.46;52636.79
-103696;SKU_1200;Notebook;24;2020-07-22 14:00:00;40.34;27381;GBR;0.09;Bank Transfer;20.03;Furniture;Online;Not Returned;Royal Mail;Amsterdam;High;2831893577011.53;40404.81
-103729;SKU_1976;White Mug;49;2020-11-16 17:00:00;65.68;86020;USA;0.15;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Rome;Medium;19723580221938.20;64401.51
-103743;SKU_1230;USB Cable;46;2021-12-11 03:00:00;40.52;38017;FRA;0.36;Bank Transfer;13.37;Furniture;Online;Not Returned;UPS;Amsterdam;Medium;2580120255051.75;43725.10
-103754;SKU_1202;Wireless Mouse;23;2020-05-12 22:00:00;36.99;19358;SWE;0.03;Credit Card;0.00;Accessories;In-store;Not Returned;Store;London;Medium;535436339440.59;52653.76
-103771;SKU_1705;Notebook;17;2021-03-17 00:00:00;56.03;36065;NLD;0.44;Bank Transfer;13.16;Electronics;Online;Not Returned;DHL;Amsterdam;Medium;872809729132.84;60141.99
-103779;SKU_1470;Desk Lamp;35;2025-03-27 06:00:00;58.62;61489;ESP;0.11;Bank Transfer;24.24;Apparel;Online;Not Returned;FedEx;Paris;Medium;1227318837559.47;29016.71
-103796;SKU_1209;T-shirt;31;2025-02-17 23:00:00;52.72;51656;ITA;0.42;Bank Transfer;24.52;Apparel;Online;Not Returned;DHL;Amsterdam;Medium;2014392567519.09;39065.42
-103809;SKU_1219;Desk Lamp;29;2024-10-04 00:00:00;59.58;62801;GBR;0.03;Bank Transfer;11.21;Electronics;Online;Not Returned;UPS;Rome;High;3271966955942.46;52636.79
-103825;SKU_1760;Wireless Mouse;43;2023-01-11 21:00:00;54.12;37817;BEL;0.44;Paypal;0.00;Furniture;In-store;Not Returned;Store;London;High;527159436181.93;54690.09
-103841;SKU_1013;Headphones;31;2023-02-16 21:00:00;55.26;75763;FRA;0.29;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Rome;Medium;2671234714486.56;44690.93
-103846;SKU_1583;Headphones;20;2023-10-14 13:00:00;54.88;39623;NOR;0.08;Credit Card;13.84;Accessories;Online;Not Returned;UPS;London;Medium;434810705801.47;87497.33
-103849;SKU_1169;USB Cable;1;2020-08-07 19:00:00;65.10;18425;ESP;0.44;Credit Card;0.00;Stationery;In-store;Not Returned;Store;Paris;Low;1187633217292.02;27233.94
-103857;SKU_1955;Blue Pen;39;2023-06-03 11:00:00;47.10;46612;DEU;0.02;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Berlin;Low;3692366831839.57;53940.41
-103877;SKU_1208;T-shirt;16;2023-06-23 20:00:00;44.73;30124;ITA;0.48;Bank Transfer;0.00;Furniture;In-store;Returned;Store;Paris;Low;2014392567519.09;39065.42
-103879;SKU_1111;White Mug;12;2023-02-16 01:00:00;51.05;36621;GBR;0.03;Paypal;5.89;Electronics;Online;Not Returned;Royal Mail;Berlin;High;3236345540532.38;49200.81
-103881;SKU_1013;Headphones;27;2022-02-21 17:00:00;55.26;58333;PRT;0.21;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Paris;Medium;230002605108.71;24620.52
-103889;SKU_1869;Notebook;5;2021-12-31 08:00:00;50.19;16931;ESP;0.34;Bank Transfer;18.76;Accessories;Online;Not Returned;UPS;Rome;High;1267004457826.92;30799.48
-103917;SKU_1272;Wireless Mouse;22;2025-03-28 12:00:00;52.14;43164;BEL;0.42;Paypal;23.78;Stationery;Online;Not Returned;UPS;London;High;527159436181.93;54690.09
-103969;SKU_1786;Headphones;13;2020-10-13 17:00:00;55.20;44834;GBR;0.23;Paypal;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;2831893577011.53;40404.81
-103991;SKU_1988;Wireless Mouse;3;2023-04-08 14:00:00;58.54;79730;BEL;0.29;Paypal;5.01;Electronics;Online;Not Returned;UPS;London;Low;527159436181.93;54690.09
+InvoiceNo;StockCode;ArticleName;Quantity;InvoiceDate;UnitPrice;CustomerID;Country;Discount;PaymentMethod;ShippingCost;Category;SalesChannel;ReturnStatus;ShipmentProvider;WarehouseLocation;OrderPriority;EstimatedCost;GDP;GDP_per_capita
+100005;SKU_1312;Wireless Mouse;45;2022-01-12 19:00:00;57.66;88722;NOR;0.16;Credit Card;26.38;Accessories;Online;Not Returned;UPS;Paris;Low;22.33;434497344228.61;109269.52
+100015;SKU_1084;Notebook;2;2021-11-05 16:00:00;44.83;73709;DEU;0.18;Paypal;0.00;Apparel;In-store;Not Returned;Store;Amsterdam;Low;30.28;3652205602904.36;52265.65
+100037;SKU_1678;Notebook;42;2021-06-05 09:00:00;42.07;55846;NLD;0.15;Paypal;0.00;Electronics;In-store;Not Returned;Store;Paris;Low;23.81;872809729132.84;60141.99
+100056;SKU_1860;Desk Lamp;3;2023-07-01 17:00:00;55.06;20877;ITA;0.19;Paypal;16.49;Stationery;Online;Not Returned;DHL;London;Low;27.49;2014392567519.09;39065.42
+100059;SKU_1058;Notebook;24;2024-10-21 14:00:00;49.18;18268;ITA;0.16;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Amsterdam;Medium;13.67;2029012875282.16;40226.05
+100064;SKU_1976;White Mug;46;2021-12-30 21:00:00;65.68;30998;BEL;0.39;Paypal;0.00;Electronics;In-store;Not Returned;Store;Paris;Low;18.26;499619240040.64;51658.24
+100068;SKU_1502;Desk Lamp;31;2022-11-24 21:00:00;44.23;71947;NOR;0.35;Paypal;28.86;Accessories;Online;Not Returned;UPS;London;High;10.13;434497344228.61;109269.52
+100126;SKU_1093;Office Chair;5;2020-02-27 19:00:00;35.69;18132;GBR;0.27;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;22.59;2831893577011.53;40404.81
+100157;SKU_1580;Blue Pen;17;2025-07-01 15:00:00;49.67;72935;SWE;0.01;Bank Transfer;7.40;Stationery;Online;Not Returned;UPS;London;High;24.86;567227918083.31;61174.97
+100159;SKU_1776;Desk Lamp;25;2020-07-04 02:00:00;63.57;13854;AUS;0.23;Credit Card;26.29;Electronics;Online;Not Returned;DHL;London;Medium;35.22;1491062566266.52;51791.54
+100184;SKU_1662;Headphones;30;2023-02-04 09:00:00;65.30;78675;PRT;0.39;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;Low;13.73;236012868833.62;27386.29
+100188;SKU_1844;Office Chair;13;2025-03-10 06:00:00;47.47;94505;ESP;0.02;Bank Transfer;17.32;Stationery;Online;Not Returned;FedEx;Berlin;High;32.51;1267004457826.92;30799.48
+100189;SKU_1702;Blue Pen;38;2022-11-12 12:00:00;49.20;23470;ITA;0.36;Paypal;11.94;Accessories;Online;Not Returned;DHL;London;Medium;30.32;2000084512919.56;35653.90
+100203;SKU_1398;Wireless Mouse;26;2024-05-11 18:00:00;62.95;19504;AUS;0.20;Paypal;0.00;Apparel;In-store;Not Returned;Store;Amsterdam;Low;19.27;1665257959985.00;64407.48
+100209;SKU_1029;USB Cable;2;2021-07-03 00:00:00;47.11;14548;ESP;0.37;Bank Transfer;12.97;Electronics;Online;Not Returned;FedEx;London;Medium;13.70;1267004457826.92;30799.48
+100215;SKU_1951;Backpack;11;2020-12-05 04:00:00;53.30;65952;AUS;0.26;Paypal;0.00;Electronics;In-store;Not Returned;Store;Rome;Low;15.55;1491062566266.52;51791.54
+100229;SKU_1469;Backpack;24;2025-06-06 10:00:00;41.57;24421;BEL;0.40;Paypal;0.00;Apparel;In-store;Not Returned;Store;Rome;High;14.64;516074948234.85;53806.42
+100294;SKU_1767;USB Cable;39;2021-03-16 15:00:00;36.85;29274;ITA;0.00;Credit Card;0.00;Accessories;In-store;Returned;Store;Berlin;Low;17.04;1908092024820.83;36852.54
+100318;SKU_1054;Backpack;38;2023-10-26 01:00:00;48.26;23728;FRA;0.34;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;Low;20.07;2671234714486.56;44690.93
+100357;SKU_1798;Desk Lamp;1;2024-12-23 04:00:00;48.38;10678;FRA;0.16;Credit Card;16.91;Stationery;Online;Returned;Royal Mail;London;High;16.72;2702385011317.50;46150.49
+100404;SKU_1467;Office Chair;27;2020-02-08 07:00:00;43.17;22922;ESP;0.19;Bank Transfer;9.82;Furniture;Online;Returned;Royal Mail;Paris;Low;21.84;1187633217292.02;27233.94
+100415;SKU_1912;Wireless Mouse;1;2022-10-17 13:00:00;44.43;47573;GBR;0.09;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Amsterdam;Medium;11.98;3223545410805.62;46062.99
+100434;SKU_1100;Office Chair;34;2024-07-29 03:00:00;48.66;60774;FRA;0.34;Bank Transfer;0.00;Stationery;In-store;Not Returned;Store;Berlin;Medium;16.84;2702385011317.50;46150.49
+100443;SKU_1328;Blue Pen;45;2025-07-02 04:00:00;44.98;67793;FRA;0.38;Credit Card;20.71;Accessories;Online;Not Returned;UPS;Paris;High;17.23;2686809862902.03;45420.71
+100515;SKU_1704;Blue Pen;44;2020-11-21 15:00:00;65.31;12440;NOR;0.01;Paypal;21.99;Accessories;Online;Not Returned;FedEx;Berlin;Medium;27.96;405005642242.72;68340.02
+100537;SKU_1438;Notebook;18;2024-05-07 20:00:00;44.97;48614;DEU;0.37;Paypal;18.37;Furniture;Online;Not Returned;Royal Mail;Rome;Low;26.65;3683559545240.29;55800.22
+100559;SKU_1113;Notebook;49;2021-06-04 21:00:00;61.46;42272;GBR;0.11;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Berlin;Low;18.43;3074755378978.02;46926.48
+100570;SKU_1474;Wall Clock;42;2024-06-18 13:00:00;32.20;23834;BEL;0.44;Credit Card;16.52;Electronics;Online;Not Returned;UPS;Berlin;Medium;14.72;532530656429.07;55954.61
+100599;SKU_1959;Office Chair;10;2023-08-23 01:00:00;35.85;55820;GBR;0.45;Paypal;29.40;Apparel;Online;Not Returned;UPS;London;Low;17.79;3236345540532.38;49200.81
+100607;SKU_1909;Desk Lamp;27;2024-07-03 11:00:00;55.48;98293;BEL;0.38;Bank Transfer;21.02;Electronics;Online;Not Returned;Royal Mail;Amsterdam;Low;12.39;532530656429.07;55954.61
+100615;SKU_1871;Wireless Mouse;11;2022-07-05 03:00:00;56.25;78437;GBR;0.32;Credit Card;0.00;Stationery;In-store;Not Returned;Store;Rome;High;28.33;3223545410805.62;46062.99
+100617;SKU_1429;T-shirt;42;2024-04-21 18:00:00;59.28;88215;AUS;0.42;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;High;16.91;1665257959985.00;64407.48
+100637;SKU_1166;Desk Lamp;30;2023-02-08 03:00:00;44.71;61285;FRA;0.42;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;High;10.40;2671234714486.56;44690.93
+100638;SKU_1669;Backpack;33;2023-02-03 01:00:00;54.05;34084;AUS;0.00;Credit Card;0.00;Accessories;In-store;Returned;Store;Amsterdam;Medium;36.46;1641762491418.85;64835.92
+100654;SKU_1420;White Mug;40;2021-01-04 12:00:00;61.33;43575;GBR;0.22;Credit Card;0.00;Stationery;In-store;Not Returned;Store;London;Medium;41.88;3074755378978.02;46926.48
+100727;SKU_1334;Desk Lamp;11;2021-03-07 12:00:00;51.82;91019;ITA;0.35;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;High;31.31;1908092024820.83;36852.54
+100799;SKU_1336;White Mug;33;2021-07-16 22:00:00;47.51;40141;NLD;0.18;Paypal;16.43;Furniture;Online;Not Returned;UPS;Rome;Low;16.74;872809729132.84;60141.99
+100801;SKU_1306;Office Chair;46;2021-05-03 18:00:00;51.94;53963;BEL;0.31;Bank Transfer;22.33;Apparel;Online;Not Returned;DHL;London;High;12.92;499619240040.64;51658.24
+100814;SKU_1288;Desk Lamp;16;2023-01-11 17:00:00;47.58;96572;PRT;0.46;Bank Transfer;0.00;Apparel;In-store;Returned;Store;Paris;High;25.79;236012868833.62;27386.29
+100819;SKU_1209;T-shirt;43;2025-02-04 18:00:00;52.72;98499;USA;0.07;Paypal;7.89;Apparel;Online;Not Returned;Royal Mail;Paris;Medium;22.15;19723580221938.20;64401.51
+100837;SKU_1868;Blue Pen;25;2024-09-22 17:00:00;44.95;54558;DEU;0.09;Credit Card;29.54;Electronics;Online;Returned;UPS;Berlin;Medium;11.73;3683559545240.29;55800.22
+100882;SKU_1799;Backpack;33;2020-12-26 19:00:00;55.23;31728;USA;0.33;Paypal;20.92;Apparel;Online;Not Returned;Royal Mail;Rome;High;24.72;19723580221938.20;64401.51
+100901;SKU_1113;Notebook;12;2020-11-18 18:00:00;61.46;91928;NLD;0.31;Bank Transfer;15.69;Electronics;Online;Not Returned;FedEx;London;Medium;18.43;821260592382.70;53467.93
+100917;SKU_1944;Desk Lamp;36;2020-09-04 04:00:00;45.55;97311;USA;0.11;Credit Card;0.00;Stationery;In-store;Not Returned;Store;London;Medium;9.89;19723580221938.20;64401.51
+100944;SKU_1639;Wall Clock;7;2021-11-01 07:00:00;49.23;57199;SWE;0.43;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Amsterdam;Low;32.23;567227918083.31;61174.97
+101010;SKU_1826;Wall Clock;32;2022-05-08 19:00:00;46.59;28277;NLD;0.37;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;15.35;916513359459.67;59123.32
+101049;SKU_1300;Headphones;29;2021-10-10 12:00:00;64.89;11207;SWE;0.43;Bank Transfer;23.06;Apparel;Online;Not Returned;UPS;Rome;High;34.47;567227918083.31;61174.97
+101051;SKU_1948;Headphones;13;2020-09-22 00:00:00;53.84;78297;BEL;0.25;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Rome;Medium;19.16;470417598101.76;45906.29
+101063;SKU_1304;Office Chair;2;2024-05-26 09:00:00;51.77;83677;BEL;0.07;Paypal;0.00;Electronics;In-store;Not Returned;Store;Rome;Medium;23.82;532530656429.07;55954.61
+101067;SKU_1271;Headphones;8;2024-06-05 11:00:00;56.01;98610;FRA;0.04;Paypal;25.34;Furniture;Online;Not Returned;Royal Mail;Berlin;High;26.51;2702385011317.50;46150.49
+101076;SKU_1904;Headphones;40;2023-10-24 23:00:00;50.80;40962;ITA;0.29;Credit Card;21.78;Electronics;Online;Not Returned;UPS;London;Low;14.86;2014392567519.09;39065.42
+101082;SKU_1031;Desk Lamp;23;2022-02-03 17:00:00;45.95;83462;AUS;0.34;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Paris;High;31.47;1587133480804.53;64997.01
+101083;SKU_1028;Backpack;36;2023-06-10 21:00:00;43.85;67186;BEL;0.11;Credit Card;5.39;Apparel;Online;Not Returned;DHL;Berlin;Low;25.76;527159436181.93;54690.09
+101085;SKU_1170;Desk Lamp;34;2022-11-18 08:00:00;46.25;36887;NLD;0.32;Credit Card;28.13;Accessories;Online;Not Returned;DHL;Amsterdam;Medium;30.98;916513359459.67;59123.32
+101095;SKU_1186;Desk Lamp;34;2021-07-07 20:00:00;50.18;66347;USA;0.08;Bank Transfer;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;High;32.49;20917853444668.30;71307.40
+101132;SKU_1789;USB Cable;15;2021-02-14 20:00:00;53.78;53722;FRA;0.26;Paypal;0.00;Accessories;In-store;Not Returned;Store;Berlin;Medium;26.83;2580120255051.75;43725.10
+101147;SKU_1292;T-shirt;31;2024-11-22 07:00:00;41.22;66117;BEL;0.01;Bank Transfer;23.67;Accessories;Online;Not Returned;Royal Mail;Paris;Medium;27.24;532530656429.07;55954.61
+101177;SKU_1571;Wall Clock;29;2024-01-10 05:00:00;45.49;50317;GBR;0.11;Bank Transfer;27.35;Stationery;Online;Not Returned;FedEx;Amsterdam;Low;11.11;3271966955942.46;52636.79
+101207;SKU_1421;Notebook;33;2023-11-04 18:00:00;55.42;55291;ESP;0.10;Bank Transfer;26.03;Apparel;Online;Not Returned;FedEx;London;Low;16.51;1381292228958.21;33509.01
+101223;SKU_1265;Backpack;23;2022-06-30 11:00:00;45.41;44311;ESP;0.03;Paypal;9.25;Accessories;Online;Not Returned;DHL;Berlin;Low;10.11;1345296618859.67;30270.27
+101229;SKU_1089;Desk Lamp;32;2024-08-07 15:00:00;41.71;29069;AUS;0.21;Paypal;8.25;Apparel;Online;Not Returned;DHL;Berlin;Medium;15.13;1665257959985.00;64407.48
+101252;SKU_1486;T-shirt;45;2020-02-10 12:00:00;45.16;94427;NLD;0.36;Paypal;0.00;Stationery;In-store;Not Returned;Store;London;Medium;17.81;821260592382.70;53467.93
+101304;SKU_1399;T-shirt;34;2023-01-24 23:00:00;63.78;43583;PRT;0.34;Bank Transfer;12.91;Stationery;Online;Not Returned;DHL;Rome;High;21.41;236012868833.62;27386.29
+101316;SKU_1216;Desk Lamp;23;2022-09-06 19:00:00;55.17;78945;NLD;0.07;Paypal;20.31;Electronics;Online;Not Returned;UPS;London;Medium;33.89;916513359459.67;59123.32
+101355;SKU_1672;Blue Pen;18;2023-06-15 08:00:00;62.93;44132;ITA;0.15;Bank Transfer;17.85;Apparel;Online;Returned;FedEx;Amsterdam;Low;23.81;2014392567519.09;39065.42
+101363;SKU_1741;Wall Clock;22;2024-08-07 21:00:00;44.78;54213;USA;0.50;Credit Card;17.52;Electronics;Online;Not Returned;DHL;Amsterdam;Medium;15.25;22679489969555.60;85809.90
+101378;SKU_1458;Backpack;24;2023-06-19 06:00:00;58.71;46200;NOR;0.33;Paypal;0.00;Accessories;In-store;Not Returned;Store;Rome;Medium;27.67;434810705801.47;87497.33
+101379;SKU_1560;Blue Pen;46;2021-11-16 08:00:00;47.85;14070;FRA;0.29;Credit Card;0.00;Apparel;In-store;Not Returned;Store;London;Low;12.94;2580120255051.75;43725.10
+101425;SKU_1773;Headphones;30;2024-10-07 10:00:00;48.48;25314;SWE;0.04;Paypal;16.76;Apparel;Online;Not Returned;FedEx;Amsterdam;Low;29.14;580446460657.16;57723.23
+101468;SKU_1311;White Mug;31;2021-02-20 23:00:00;42.81;28181;USA;0.03;Credit Card;26.41;Apparel;Online;Not Returned;Royal Mail;London;Low;10.16;20917853444668.30;71307.40
+101495;SKU_1345;Wall Clock;42;2025-01-17 21:00:00;59.89;74739;ESP;0.49;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;High;41.53;1266464918075.84;28752.11
+101515;SKU_1495;Backpack;17;2020-11-25 19:00:00;48.60;32353;AUS;0.13;Credit Card;5.32;Stationery;Online;Returned;UPS;Paris;High;28.49;1491062566266.52;51791.54
+101532;SKU_1997;USB Cable;24;2022-03-10 12:00:00;54.31;93241;PRT;0.29;Bank Transfer;22.30;Apparel;Online;Not Returned;DHL;London;High;16.26;230002605108.71;24620.52
+101539;SKU_1214;Office Chair;19;2020-11-02 08:00:00;40.05;98580;GBR;0.17;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;Medium;8.12;2831893577011.53;40404.81
+101577;SKU_1273;USB Cable;14;2020-11-26 16:00:00;40.19;85115;DEU;0.10;Credit Card;7.38;Stationery;Online;Not Returned;UPS;London;High;24.42;3522914639711.92;47379.77
+101585;SKU_1514;Backpack;12;2024-08-30 17:00:00;46.17;27887;BEL;0.02;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;Medium;25.55;532530656429.07;55954.61
+101593;SKU_1519;Blue Pen;3;2024-12-23 11:00:00;51.51;40631;USA;0.27;Paypal;0.00;Electronics;In-store;Not Returned;Store;Rome;High;29.08;22679489969555.60;85809.90
+101607;SKU_1451;Office Chair;10;2022-05-16 12:00:00;58.45;44519;ITA;0.48;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;34.23;2000084512919.56;35653.90
+101620;SKU_1257;Backpack;8;2021-02-15 21:00:00;50.38;47431;ITA;0.42;Bank Transfer;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;High;11.94;1908092024820.83;36852.54
+101634;SKU_1743;Backpack;44;2023-08-24 09:00:00;45.41;96937;AUS;0.05;Credit Card;19.61;Stationery;Online;Not Returned;Royal Mail;Amsterdam;High;17.22;1641762491418.85;64835.92
+101650;SKU_1470;Desk Lamp;46;2024-11-24 06:00:00;58.62;90592;NLD;0.10;Paypal;0.00;Apparel;In-store;Not Returned;Store;Paris;High;15.12;926182265714.10;68218.73
+101658;SKU_1472;Headphones;12;2022-07-23 03:00:00;51.55;66392;DEU;0.35;Credit Card;21.53;Accessories;Online;Not Returned;DHL;Berlin;High;32.56;3702230996915.75;49686.12
+101676;SKU_1420;White Mug;40;2024-06-04 23:00:00;61.33;65328;GBR;0.41;Bank Transfer;0.00;Stationery;In-store;Returned;Store;Berlin;High;41.88;3271966955942.46;52636.79
+101722;SKU_1619;T-shirt;34;2023-12-17 17:00:00;49.65;15539;GBR;0.39;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;25.40;3236345540532.38;49200.81
+101745;SKU_1847;Backpack;22;2023-02-15 22:00:00;47.14;21215;PRT;0.41;Paypal;16.93;Accessories;Online;Not Returned;UPS;Rome;Medium;17.23;236012868833.62;27386.29
+101755;SKU_1769;Wall Clock;46;2024-05-25 05:00:00;53.20;17689;DEU;0.08;Bank Transfer;13.74;Accessories;Online;Not Returned;DHL;Berlin;Low;12.33;3683559545240.29;55800.22
+101825;SKU_1853;Blue Pen;7;2023-04-29 11:00:00;53.20;52074;BEL;0.18;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Rome;High;18.91;527159436181.93;54690.09
+101832;SKU_1059;Backpack;22;2021-10-22 19:00:00;50.17;96868;DEU;0.48;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Amsterdam;Low;18.19;3652205602904.36;52265.65
+101845;SKU_1398;Wireless Mouse;41;2022-01-29 14:00:00;62.95;20319;USA;0.11;Bank Transfer;12.49;Apparel;Online;Not Returned;FedEx;Paris;Medium;19.27;21443388432051.00;77860.91
+101881;SKU_1381;T-shirt;22;2020-10-10 22:00:00;47.31;95653;DEU;0.11;Bank Transfer;15.35;Accessories;Online;Not Returned;Royal Mail;Paris;Medium;26.72;3522914639711.92;47379.77
+101903;SKU_1222;T-shirt;37;2024-03-29 22:00:00;43.24;88118;AUS;0.24;Bank Transfer;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;High;22.43;1665257959985.00;64407.48
+101906;SKU_1408;Desk Lamp;14;2021-03-02 09:00:00;41.52;43162;NOR;0.43;Bank Transfer;14.43;Apparel;Online;Not Returned;DHL;London;Low;26.72;420836044191.96;93072.89
+101917;SKU_1859;Headphones;4;2020-02-20 08:00:00;46.92;51654;SWE;0.37;Credit Card;0.00;Stationery;In-store;Not Returned;Store;Paris;Low;20.46;535436339440.59;52653.76
+101919;SKU_1971;Office Chair;29;2021-09-25 20:00:00;66.47;93557;BEL;0.11;Paypal;0.00;Accessories;In-store;Not Returned;Store;London;High;17.27;499619240040.64;51658.24
+101980;SKU_1258;Headphones;25;2024-05-08 00:00:00;54.98;94639;GBR;0.29;Credit Card;13.81;Electronics;Online;Returned;DHL;Amsterdam;High;30.60;3271966955942.46;52636.79
+102016;SKU_1407;T-shirt;19;2021-11-09 14:00:00;52.02;70374;BEL;0.30;Credit Card;24.83;Accessories;Online;Not Returned;UPS;Amsterdam;Low;30.19;499619240040.64;51658.24
+102075;SKU_1953;T-shirt;34;2025-01-12 01:00:00;50.60;28811;SWE;0.17;Credit Card;6.48;Stationery;Online;Not Returned;UPS;Rome;High;24.32;557941400048.87;55188.50
+102078;SKU_1051;White Mug;23;2024-09-30 12:00:00;60.96;89752;GBR;0.35;Bank Transfer;0.00;Furniture;In-store;Not Returned;Store;Paris;Medium;35.69;3271966955942.46;52636.79
+102127;SKU_1635;Wall Clock;46;2024-04-19 17:00:00;45.53;95086;SWE;0.23;Paypal;0.00;Furniture;In-store;Not Returned;Store;Berlin;High;20.35;580446460657.16;57723.23
+102159;SKU_1521;Desk Lamp;15;2020-11-17 22:00:00;54.00;30140;BEL;0.01;Credit Card;0.00;Apparel;In-store;Not Returned;Store;London;Low;24.92;470417598101.76;45906.29
+102187;SKU_1289;Desk Lamp;31;2020-08-16 06:00:00;41.03;73828;SWE;0.44;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Berlin;Low;16.98;535436339440.59;52653.76
+102221;SKU_1867;Blue Pen;5;2024-08-02 18:00:00;51.47;77443;FRA;0.00;Credit Card;12.47;Apparel;Online;Not Returned;UPS;Amsterdam;Low;10.95;2702385011317.50;46150.49
+102257;SKU_1814;Backpack;38;2020-07-09 01:00:00;41.27;61629;SWE;0.13;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;Medium;10.48;535436339440.59;52653.76
+102292;SKU_1654;Backpack;17;2024-04-26 17:00:00;50.93;24149;AUS;0.05;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Amsterdam;High;10.99;1665257959985.00;64407.48
+102352;SKU_1587;Desk Lamp;7;2020-06-23 12:00:00;34.37;28921;ESP;0.05;Credit Card;0.00;Stationery;In-store;Not Returned;Store;London;High;17.81;1187633217292.02;27233.94
+102355;SKU_1799;Backpack;16;2023-01-09 23:00:00;55.23;98500;AUS;0.28;Paypal;0.00;Apparel;In-store;Not Returned;Store;Amsterdam;High;24.72;1641762491418.85;64835.92
+102387;SKU_1400;Wall Clock;42;2024-07-16 08:00:00;57.02;58619;NOR;0.01;Credit Card;7.13;Accessories;Online;Not Returned;UPS;Amsterdam;Medium;20.37;443943701526.20;86809.72
+102405;SKU_1099;Backpack;9;2024-06-02 12:00:00;47.65;64816;DEU;0.24;Paypal;0.00;Apparel;In-store;Not Returned;Store;Rome;Medium;21.65;3683559545240.29;55800.22
+102419;SKU_1668;USB Cable;31;2021-08-31 03:00:00;46.45;57382;ESP;0.20;Bank Transfer;18.22;Stationery;Online;Not Returned;DHL;Rome;High;30.37;1267004457826.92;30799.48
+102431;SKU_1738;USB Cable;8;2021-05-22 04:00:00;43.52;23415;ITA;0.35;Credit Card;14.78;Apparel;Online;Not Returned;UPS;Paris;Medium;14.13;1908092024820.83;36852.54
+102438;SKU_1820;Blue Pen;1;2022-10-02 19:00:00;51.74;16555;NOR;0.47;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Amsterdam;Low;20.96;434497344228.61;109269.52
+102469;SKU_1558;Blue Pen;33;2025-04-27 01:00:00;39.01;41226;SWE;0.47;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Paris;High;22.54;555470874650.07;53975.35
+102479;SKU_1886;T-shirt;37;2023-10-27 11:00:00;51.40;27159;NOR;0.11;Paypal;0.00;Furniture;In-store;Not Returned;Store;London;High;16.16;434810705801.47;87497.33
+102496;SKU_1072;Wireless Mouse;43;2025-05-12 03:00:00;52.77;11842;NLD;0.04;Bank Transfer;23.32;Accessories;Online;Not Returned;Royal Mail;Amsterdam;Medium;12.59;899495997423.47;64180.36
+102521;SKU_1725;Headphones;34;2024-07-08 05:00:00;61.90;28955;FRA;0.30;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Rome;High;21.35;2702385011317.50;46150.49
+102526;SKU_1449;T-shirt;46;2021-10-24 09:00:00;45.75;19776;NLD;0.08;Bank Transfer;14.49;Electronics;Online;Not Returned;DHL;London;High;12.84;872809729132.84;60141.99
+102589;SKU_1337;White Mug;24;2022-05-10 21:00:00;60.12;25235;GBR;0.04;Paypal;10.59;Stationery;Online;Returned;Royal Mail;Rome;Medium;39.97;3223545410805.62;46062.99
+102590;SKU_1849;Backpack;45;2023-03-20 00:00:00;53.58;49748;NLD;0.41;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Berlin;Medium;32.37;917196719472.46;64572.01
+102594;SKU_1892;Blue Pen;44;2023-05-11 07:00:00;43.05;36777;AUS;0.00;Paypal;18.97;Apparel;Online;Not Returned;Royal Mail;London;Medium;22.24;1641762491418.85;64835.92
+102631;SKU_1030;Headphones;32;2021-12-31 19:00:00;49.35;16132;PRT;0.04;Credit Card;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;31.37;214984152369.52;24711.45
+102639;SKU_1764;White Mug;45;2024-05-18 16:00:00;58.16;12636;DEU;0.08;Bank Transfer;27.83;Stationery;Online;Returned;Royal Mail;Berlin;High;35.00;3683559545240.29;55800.22
+102700;SKU_1308;Backpack;34;2023-09-30 17:00:00;64.86;29628;NLD;0.10;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;London;Medium;19.02;917196719472.46;64572.01
+102763;SKU_1392;T-shirt;28;2020-08-23 20:00:00;37.09;19357;PRT;0.09;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Amsterdam;High;23.97;203663018608.84;22299.40
+102765;SKU_1106;Wireless Mouse;11;2021-03-18 03:00:00;55.56;67813;NOR;0.11;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Rome;Low;26.09;420836044191.96;93072.89
+102775;SKU_1345;Wall Clock;22;2020-09-08 18:00:00;59.89;73240;PRT;0.32;Paypal;0.00;Accessories;In-store;Not Returned;Store;Rome;Low;41.53;203663018608.84;22299.40
+102781;SKU_1909;Desk Lamp;8;2023-01-21 13:00:00;55.48;48740;ESP;0.48;Credit Card;21.15;Electronics;Online;Returned;DHL;Rome;High;12.39;1381292228958.21;33509.01
+102853;SKU_1422;Backpack;39;2023-02-17 20:00:00;54.94;35263;GBR;0.13;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Paris;High;33.17;3236345540532.38;49200.81
+102869;SKU_1354;White Mug;32;2020-01-16 01:00:00;44.61;37314;BEL;0.04;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;Medium;28.91;470417598101.76;45906.29
+102883;SKU_1740;Wireless Mouse;8;2025-01-17 09:00:00;56.90;47573;GBR;0.10;Paypal;20.11;Electronics;Online;Not Returned;UPS;London;Medium;20.43;3155550459755.20;48063.64
+102921;SKU_1820;Blue Pen;20;2021-10-16 19:00:00;51.74;59396;AUS;0.07;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;20.96;1522541404227.63;60607.78
+102928;SKU_1973;USB Cable;1;2022-03-19 04:00:00;46.85;30661;SWE;0.03;Paypal;19.41;Stationery;Online;Not Returned;DHL;Paris;Low;11.95;575505409859.56;55296.94
+102948;SKU_1229;White Mug;23;2024-04-06 01:00:00;66.16;10783;FRA;0.07;Bank Transfer;21.15;Electronics;In-store;Not Returned;Royal Mail;Amsterdam;Low;20.77;2702385011317.50;46150.49
+102948;SKU_1051;White Mug;9;2024-04-06 01:00:00;60.96;10783;FRA;0.37;Bank Transfer;0.00;Furniture;In-store;Not Returned;Royal Mail;Amsterdam;Low;35.69;2702385011317.50;46150.49
+102988;SKU_1385;Wall Clock;16;2022-10-19 22:00:00;53.14;89826;BEL;0.22;Paypal;0.00;Furniture;In-store;Not Returned;Store;London;Medium;21.98;520899825783.06;50822.25
+102998;SKU_1461;Wall Clock;40;2023-02-22 19:00:00;47.23;52859;PRT;0.03;Credit Card;7.60;Stationery;Online;Not Returned;FedEx;London;High;28.76;236012868833.62;27386.29
+103005;SKU_1748;Wireless Mouse;23;2023-05-08 15:00:00;50.18;13964;NLD;0.48;Bank Transfer;15.24;Electronics;Online;Not Returned;Royal Mail;Berlin;Low;31.63;917196719472.46;64572.01
+103051;SKU_1328;Blue Pen;10;2020-01-22 03:00:00;44.98;30573;ITA;0.23;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Amsterdam;High;17.23;1751650987235.43;32091.49
+103052;SKU_1694;Office Chair;30;2022-01-18 23:00:00;54.41;58027;PRT;0.47;Paypal;0.00;Furniture;In-store;Not Returned;Store;Paris;Low;11.07;230002605108.71;24620.52
+103060;SKU_1725;Headphones;35;2021-09-23 18:00:00;61.90;50999;AUS;0.16;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Rome;High;21.35;1522541404227.63;60607.78
+103089;SKU_1981;Blue Pen;2;2020-12-24 09:00:00;55.38;47303;DEU;0.40;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;Medium;25.22;3522914639711.92;47379.77
+103098;SKU_1071;Blue Pen;2;2021-11-19 14:00:00;38.56;38359;ESP;0.00;Credit Card;27.12;Electronics;Online;Returned;UPS;Amsterdam;High;15.76;1267004457826.92;30799.48
+103111;SKU_1677;White Mug;12;2024-08-06 19:00:00;51.94;41316;NOR;0.41;Paypal;24.50;Apparel;Online;Not Returned;UPS;London;Low;16.16;443943701526.20;86809.72
+103114;SKU_1010;USB Cable;24;2020-12-14 14:00:00;57.22;59318;FRA;0.47;Credit Card;5.49;Apparel;Online;Not Returned;FedEx;Rome;Low;14.87;2413981867676.36;39169.86
+103159;SKU_1731;Office Chair;2;2022-12-22 06:00:00;56.07;47024;ESP;0.42;Paypal;0.00;Apparel;In-store;Not Returned;Store;Berlin;High;20.68;1345296618859.67;30270.27
+103174;SKU_1281;T-shirt;36;2020-12-14 22:00:00;46.48;22990;NOR;0.08;Bank Transfer;27.14;Electronics;Online;Not Returned;UPS;Rome;Medium;31.21;405005642242.72;68340.02
+103191;SKU_1259;Blue Pen;23;2020-05-05 20:00:00;47.06;80522;FRA;0.21;Paypal;14.12;Stationery;Online;Returned;DHL;Amsterdam;Low;17.02;2413981867676.36;39169.86
+103196;SKU_1541;Wireless Mouse;42;2021-04-26 16:00:00;44.13;46057;ESP;0.01;Credit Card;0.00;Apparel;In-store;Not Returned;Store;London;High;20.27;1267004457826.92;30799.48
+103212;SKU_1970;White Mug;3;2021-12-03 03:00:00;64.57;87642;ESP;0.27;Credit Card;0.00;Apparel;In-store;Not Returned;Store;Paris;High;35.61;1267004457826.92;30799.48
+103247;SKU_1033;Headphones;12;2025-01-16 17:00:00;58.30;16291;FRA;0.02;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;London;Medium;22.26;2497051061364.05;41447.48
+103267;SKU_1714;Notebook;20;2020-01-28 10:00:00;50.23;74911;SWE;0.01;Bank Transfer;28.39;Apparel;Online;Not Returned;Royal Mail;Berlin;Medium;34.46;535436339440.59;52653.76
+103285;SKU_1249;Blue Pen;35;2021-03-19 08:00:00;45.49;27098;ESP;0.01;Paypal;8.57;Apparel;Online;Not Returned;Royal Mail;Berlin;Low;30.99;1267004457826.92;30799.48
+103317;SKU_1025;Blue Pen;37;2021-01-12 12:00:00;58.58;23276;GBR;0.12;Credit Card;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;High;19.09;3074755378978.02;46926.48
+103321;SKU_1326;Blue Pen;2;2023-09-16 08:00:00;50.59;72457;USA;0.09;Paypal;8.32;Electronics;Online;Returned;UPS;Amsterdam;Medium;22.69;22062578283266.80;82304.62
+103340;SKU_1112;T-shirt;15;2025-01-25 12:00:00;53.43;85232;NOR;0.42;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Berlin;Low;18.72;412920843217.34;80706.46
+103358;SKU_1878;Blue Pen;40;2020-09-23 21:00:00;53.94;46144;SWE;0.15;Credit Card;7.09;Apparel;Online;Returned;UPS;Rome;Low;18.47;535436339440.59;52653.76
+103376;SKU_1840;Notebook;46;2022-08-15 15:00:00;55.11;14461;ESP;0.21;Paypal;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;12.04;1345296618859.67;30270.27
+103400;SKU_1967;Wall Clock;2;2024-02-17 16:00:00;43.97;21238;USA;0.43;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;22.20;22679489969555.60;85809.90
+103411;SKU_1600;Blue Pen;19;2025-02-15 03:00:00;58.78;76414;USA;0.06;Paypal;0.00;Stationery;In-store;Not Returned;Store;Amsterdam;Low;26.53;22679489969555.60;85809.90
+103413;SKU_1559;Notebook;15;2023-10-05 19:00:00;57.95;53476;AUS;0.22;Credit Card;19.84;Accessories;Online;Not Returned;DHL;Amsterdam;Low;13.08;1641762491418.85;64835.92
+103420;SKU_1427;Office Chair;40;2021-10-26 08:00:00;39.45;93682;NOR;0.14;Paypal;27.39;Furniture;Online;Not Returned;UPS;Rome;Low;13.39;420836044191.96;93072.89
+103436;SKU_1950;Backpack;37;2022-07-31 05:00:00;46.12;93124;BEL;0.13;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Rome;Medium;30.17;520899825783.06;50822.25
+103449;SKU_1971;Office Chair;42;2025-05-27 17:00:00;66.47;84035;DEU;0.46;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Rome;High;17.27;3607640735775.75;50660.09
+103468;SKU_1745;T-shirt;46;2023-07-27 05:00:00;51.51;40712;GBR;0.37;Paypal;0.00;Stationery;In-store;Not Returned;Store;Berlin;Medium;16.47;3236345540532.38;49200.81
+103474;SKU_1796;Office Chair;5;2025-01-05 01:00:00;61.32;13836;ESP;0.14;Credit Card;0.00;Apparel;In-store;Not Returned;Store;Paris;High;16.71;1345296618859.67;30270.27
+103485;SKU_1659;Office Chair;44;2024-12-30 13:00:00;23.81;96286;USA;0.25;Paypal;7.94;Electronics;Online;Not Returned;UPS;Amsterdam;High;10.59;22679489969555.60;85809.90
+103487;SKU_1682;Backpack;32;2022-07-18 18:00:00;41.23;61490;ESP;0.17;Bank Transfer;24.31;Furniture;Online;Not Returned;UPS;Berlin;Medium;28.57;1345296618859.67;30270.27
+103498;SKU_1260;White Mug;44;2023-12-14 22:00:00;45.21;63141;PRT;0.50;Bank Transfer;21.48;Furniture;Online;Not Returned;Royal Mail;Rome;High;14.51;236012868833.62;27386.29
+103514;SKU_1456;Office Chair;2;2023-05-23 10:00:00;40.60;44243;ITA;0.35;Credit Card;0.00;Furniture;In-store;Not Returned;Store;Paris;High;21.76;2014392567519.09;39065.42
+103515;SKU_1706;Wall Clock;3;2022-01-09 13:00:00;50.42;54850;NLD;0.38;Bank Transfer;13.36;Furniture;Online;Not Returned;Royal Mail;Berlin;Low;29.28;916513359459.67;59123.32
+103532;SKU_1306;Office Chair;20;2023-10-05 10:00:00;51.94;94165;PRT;0.44;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Berlin;High;12.92;236012868833.62;27386.29
+103543;SKU_1334;Desk Lamp;36;2023-07-16 04:00:00;51.82;22790;NLD;0.43;Paypal;19.06;Accessories;Online;Not Returned;DHL;Paris;High;31.31;917196719472.46;64572.01
+103573;SKU_1989;Headphones;42;2023-09-08 23:00:00;41.30;56621;USA;0.32;Credit Card;29.38;Accessories;Online;Returned;UPS;Amsterdam;Low;13.17;22062578283266.80;82304.62
+103590;SKU_1333;Desk Lamp;23;2023-05-18 00:00:00;43.32;94637;PRT;0.24;Paypal;0.00;Accessories;In-store;Not Returned;Store;Paris;Low;24.44;236012868833.62;27386.29
+103599;SKU_1937;Backpack;47;2022-02-20 04:00:00;64.35;95547;SWE;0.09;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;Berlin;High;24.71;575505409859.56;55296.94
+103608;SKU_1165;T-shirt;9;2023-07-12 01:00:00;46.61;50862;SWE;0.47;Paypal;0.00;Apparel;In-store;Not Returned;Store;Berlin;Medium;24.06;574848401745.34;55567.09
+103625;SKU_1180;White Mug;36;2022-06-30 09:00:00;48.66;49557;PRT;0.09;Bank Transfer;0.00;Accessories;In-store;Not Returned;Store;London;Low;25.14;230002605108.71;24620.52
+103626;SKU_1699;Headphones;49;2021-01-15 13:00:00;45.21;41006;ESP;0.14;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Rome;Low;21.15;1267004457826.92;30799.48
+103654;SKU_1653;Notebook;47;2023-07-06 19:00:00;52.19;78128;NLD;0.10;Credit Card;0.00;Accessories;In-store;Not Returned;Store;Paris;Medium;12.79;917196719472.46;64572.01
+103681;SKU_1904;Headphones;4;2021-01-08 11:00:00;50.80;20025;SWE;0.44;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Amsterdam;High;14.86;567227918083.31;61174.97
+103687;SKU_1087;Blue Pen;19;2024-06-30 05:00:00;46.78;38383;GBR;0.44;Paypal;0.00;Apparel;In-store;Not Returned;Store;Rome;Medium;28.89;3271966955942.46;52636.79
+103696;SKU_1200;Notebook;24;2020-07-22 14:00:00;40.34;27381;GBR;0.09;Bank Transfer;20.03;Furniture;Online;Not Returned;Royal Mail;Amsterdam;High;14.54;2831893577011.53;40404.81
+103729;SKU_1976;White Mug;49;2020-11-16 17:00:00;65.68;86020;USA;0.15;Credit Card;0.00;Electronics;In-store;Not Returned;Store;Rome;Medium;18.26;19723580221938.20;64401.51
+103743;SKU_1230;USB Cable;46;2021-12-11 03:00:00;40.52;38017;FRA;0.36;Bank Transfer;13.37;Furniture;Online;Not Returned;UPS;Amsterdam;Medium;11.88;2580120255051.75;43725.10
+103754;SKU_1202;Wireless Mouse;23;2020-05-12 22:00:00;36.99;19358;SWE;0.03;Credit Card;0.00;Accessories;In-store;Not Returned;Store;London;Medium;8.15;535436339440.59;52653.76
+103771;SKU_1705;Notebook;17;2021-03-17 00:00:00;56.03;36065;NLD;0.44;Bank Transfer;13.16;Electronics;Online;Not Returned;DHL;Amsterdam;Medium;27.76;872809729132.84;60141.99
+103779;SKU_1470;Desk Lamp;35;2025-03-27 06:00:00;58.62;61489;ESP;0.11;Bank Transfer;24.24;Apparel;Online;Not Returned;FedEx;Paris;Medium;15.12;1227318837559.47;29016.71
+103796;SKU_1209;T-shirt;31;2025-02-17 23:00:00;52.72;51656;ITA;0.42;Bank Transfer;24.52;Apparel;Online;Not Returned;DHL;Amsterdam;Medium;22.15;2014392567519.09;39065.42
+103809;SKU_1219;Desk Lamp;29;2024-10-04 00:00:00;59.58;62801;GBR;0.03;Bank Transfer;11.21;Electronics;Online;Not Returned;UPS;Rome;High;32.10;3271966955942.46;52636.79
+103825;SKU_1760;Wireless Mouse;43;2023-01-11 21:00:00;54.12;37817;BEL;0.44;Paypal;0.00;Furniture;In-store;Not Returned;Store;London;High;11.27;527159436181.93;54690.09
+103841;SKU_1013;Headphones;31;2023-02-16 21:00:00;55.26;75763;FRA;0.29;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Rome;Medium;25.20;2671234714486.56;44690.93
+103846;SKU_1583;Headphones;20;2023-10-14 13:00:00;54.88;39623;NOR;0.08;Credit Card;13.84;Accessories;Online;Not Returned;UPS;London;Medium;17.19;434810705801.47;87497.33
+103849;SKU_1169;USB Cable;1;2020-08-07 19:00:00;65.10;18425;ESP;0.44;Credit Card;0.00;Stationery;In-store;Not Returned;Store;Paris;Low;34.02;1187633217292.02;27233.94
+103857;SKU_1955;Blue Pen;39;2023-06-03 11:00:00;47.10;46612;DEU;0.02;Bank Transfer;0.00;Apparel;In-store;Not Returned;Store;Berlin;Low;13.53;3692366831839.57;53940.41
+103877;SKU_1208;T-shirt;16;2023-06-23 20:00:00;44.73;30124;ITA;0.48;Bank Transfer;0.00;Furniture;In-store;Returned;Store;Paris;Low;24.40;2014392567519.09;39065.42
+103879;SKU_1111;White Mug;12;2023-02-16 01:00:00;51.05;36621;GBR;0.03;Paypal;5.89;Electronics;Online;Not Returned;Royal Mail;Berlin;High;20.08;3236345540532.38;49200.81
+103881;SKU_1013;Headphones;27;2022-02-21 17:00:00;55.26;58333;PRT;0.21;Bank Transfer;0.00;Electronics;In-store;Not Returned;Store;Paris;Medium;25.20;230002605108.71;24620.52
+103889;SKU_1869;Notebook;5;2021-12-31 08:00:00;50.19;16931;ESP;0.34;Bank Transfer;18.76;Accessories;Online;Not Returned;UPS;Rome;High;33.55;1267004457826.92;30799.48
+103917;SKU_1272;Wireless Mouse;22;2025-03-28 12:00:00;52.14;43164;BEL;0.42;Paypal;23.78;Stationery;Online;Not Returned;UPS;London;High;14.01;527159436181.93;54690.09
+103969;SKU_1786;Headphones;13;2020-10-13 17:00:00;55.20;44834;GBR;0.23;Paypal;0.00;Apparel;In-store;Not Returned;Store;Rome;Low;20.45;2831893577011.53;40404.81
+103991;SKU_1988;Wireless Mouse;3;2023-04-08 14:00:00;58.54;79730;BEL;0.29;Paypal;5.01;Electronics;Online;Not Returned;UPS;London;Low;15.03;527159436181.93;54690.09
