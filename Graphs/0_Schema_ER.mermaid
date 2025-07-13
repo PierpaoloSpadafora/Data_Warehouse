@@ -1,0 +1,53 @@
+erDiagram
+    COUNTRY {
+        CHAR(3) CountryCode PK
+        VARCHAR CountryName
+    }
+
+    CUSTOMER {
+        INT CustomerID PK
+        CHAR(3) CountryCode FK
+    }
+
+    ECONOMIC_MEASUREMENT {
+        CHAR(3) CountryCode PK, FK
+        INT Year PK
+        DECIMAL GDP
+        DECIMAL GDP_per_capita
+    }
+
+    "ORDER" {
+        INT InvoiceNo PK
+        INT CustomerID FK
+        DATETIME InvoiceDate
+        VARCHAR PaymentMethod
+        DECIMAL ShippingCost
+        VARCHAR SalesChannel
+        VARCHAR ShipmentProvider
+        VARCHAR WarehouseLocation
+        VARCHAR OrderPriority
+    }
+
+    PRODUCT {
+        VARCHAR StockCode PK
+        VARCHAR ArticleName
+        DECIMAL UnitPrice
+        VARCHAR Category
+        VARCHAR EstimatedUnitCost
+    }
+
+    SALE {
+        INT InvoiceNo PK, FK
+        VARCHAR StockCode PK, FK
+        INT Quantity
+        DECIMAL Discount
+        VARCHAR ReturnStatus
+    }
+
+%% || è n in una 1:N
+%% o è 1 in una 1:N
+    COUNTRY ||--o{ CUSTOMER : has 
+    COUNTRY ||--o{ ECONOMIC_MEASUREMENT : measures
+    CUSTOMER ||--o{ "ORDER" : places
+    "ORDER" ||--o{ SALE : contains
+    PRODUCT ||--o{ SALE : referenced_by
