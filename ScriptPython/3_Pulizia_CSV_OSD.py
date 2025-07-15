@@ -7,6 +7,21 @@ import random
 INPUT_PATH = Path('online_sales_dataset.csv')
 OUTPUT_PATH = Path('OSD_cleaned.csv')
 VALID_CHANNELS = ['In-store', 'Online']
+
+# Dizionario per mappatura coerente prodotto-categoria
+PRODUCT_CATEGORY_MAPPING = {
+    'Electronics': ['Wireless Mouse', 'USB Cable', 'Headphones', 'Notebook'],
+    'Clothing & Gear': ['T-shirt', 'Backpack'],
+    'Home': [ 'Wall Clock', 'White Mug'],
+    'Office': ['Office Chair', 'Blue Pen', 'Desk Lamp']
+}
+
+
+DESCRIPTION_TO_CATEGORY = {}
+for category, products in PRODUCT_CATEGORY_MAPPING.items():
+    for product in products:
+        DESCRIPTION_TO_CATEGORY[product] = category
+
 DEFAULT_VALUES = {
     'Description': 'Unknown Product',
     'Country': 'Unknown',
@@ -356,6 +371,65 @@ def ensure_minimum_profit(df, min_profit_percentage=0.05):
     print()
     return df
 
+def apply_product_category_consistency(df):
+    print("=== APPLICAZIONE COERENZA PRODOTTO-CATEGORIA ===")
+    
+    print(f"Prodotti nel dizionario: {sum(len(products) for products in PRODUCT_CATEGORY_MAPPING.values())}")
+    print("Mappatura categorie:")
+    for category, products in PRODUCT_CATEGORY_MAPPING.items():
+        print(f"  {category}: {', '.join(products)}")
+    
+    matched_products = df[df['Description'].isin(DESCRIPTION_TO_CATEGORY.keys())]
+    unmatched_products = df[~df['Description'].isin(DESCRIPTION_TO_CATEGORY.keys())]
+    
+    print(f"\nProdotti matchati: {len(matched_products)} righe")
+    print(f"Prodotti non matchati: {len(unmatched_products)} righe")
+    
+    if len(matched_products) > 0:
+        inconsistencies = []
+        for desc, category in DESCRIPTION_TO_CATEGORY.items():
+            product_data = df[df['Description'] == desc]
+            if len(product_data) > 0:
+                wrong_categories = product_data[product_data['Category'] != category]['Category'].unique()
+                if len(wrong_categories) > 0:
+                    inconsistencies.append({
+                        'Description': desc,
+                        'CorrectCategory': category,
+                        'WrongCategories': list(wrong_categories),
+                        'Records': len(product_data[product_data['Category'] != category])
+                    })
+        
+        if inconsistencies:
+            print(f"\nInconsistenze trovate: {len(inconsistencies)}")
+            print("Esempi di correzioni:")
+            for i, issue in enumerate(inconsistencies[:5]):
+                print(f"  {i+1}. {issue['Description']}: {issue['WrongCategories']} → {issue['CorrectCategory']} ({issue['Records']} record)")
+            
+            for desc, correct_category in DESCRIPTION_TO_CATEGORY.items():
+                df.loc[df['Description'] == desc, 'Category'] = correct_category
+            
+            total_corrected = sum(issue['Records'] for issue in inconsistencies)
+            print(f"\nCorretti {total_corrected} record")
+        else:
+            print("\nNessuna inconsistenza trovata - tutti i prodotti sono già nelle categorie corrette")
+    
+    print("\n--- DISTRIBUZIONE FINALE CATEGORIE ---")
+    category_stats = df['Category'].value_counts()
+    for category, count in category_stats.items():
+        percentage = (count / len(df)) * 100
+        print(f"{category}: {count} ({percentage:.1f}%)")
+    
+    print("\n--- VERIFICA PRODOTTI PER CATEGORIA ---")
+    for category, expected_products in PRODUCT_CATEGORY_MAPPING.items():
+        actual_products = df[df['Category'] == category]['Description'].unique()
+        found_products = [p for p in expected_products if p in actual_products]
+        print(f"{category}: {len(found_products)}/{len(expected_products)} prodotti trovati")
+        if found_products:
+            print(f"  Trovati: {', '.join(found_products)}")
+    
+    print()
+    return df
+
 def clean_dataset():
     df = pd.read_csv(INPUT_PATH)
     print(f"Inizio pulizia dataset: {len(df)} righe, colonne: {list(df.columns)}\n")
@@ -364,8 +438,8 @@ def clean_dataset():
     prev_count = len(df)
 
     # 0) Filtro ShipmentProvider e Category
-    valid_shipment_providers = ['DHL', 'FedEx', 'Royal Mail', 'UPS', 'Store']  # Aggiunto 'Store'
-    valid_categories         = ['Accessories', 'Apparel', 'Electronics', 'Furniture', 'Stationery']
+    valid_shipment_providers = ['DHL', 'FedEx', 'Royal Mail', 'UPS', 'Store']
+    valid_categories         = ['Accessories', 'Apparel', 'Electronics', 'Furniture', 'Stationery']  # Corretto: separato Apparel e Electronics
     df = df[
         df['ShipmentProvider'].isin(valid_shipment_providers) &
         df['Category'].isin(valid_categories)
@@ -482,6 +556,12 @@ def clean_dataset():
 
     # 15) Analisi finale duplicati (ora dovrebbero essere logici)
     analyze_duplicates(df, 'DOPO CONSOLIDAMENTO')
+    
+    # Nuovo step: Applica coerenza prodotto-categoria
+    print("="*60 + "\n")
+    df = apply_product_category_consistency(df)
+    print("="*60 + "\n")
+    
     print("=== VERIFICA FINALE COERENZA STOCKCODE ===")
     stockcode_fields = ['Description', 'Category', 'UnitPrice']
     final_issues = []
@@ -499,7 +579,7 @@ def clean_dataset():
     else:
         print("Tutti i StockCode hanno dati consistenti")
     print()
-    
+
     print("=== VERIFICA FINALE REGOLE SHIPMENT PROVIDER ===")
     
     date_provider_violations = 0
