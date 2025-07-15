@@ -287,6 +287,75 @@ def create_realistic_multi_item_orders(df, target_multi_percentage=0.15):
     print(f"Ordini multi-articolo creati: {combined_count}")
     return df_result
 
+def ensure_minimum_profit(df, min_profit_percentage=0.05):
+    print(f"=== CONTROLLO PROFITTO MINIMO ({min_profit_percentage:.1%}) ===")
+    
+    
+    df['Revenue'] = df['UnitPrice'] * df['Quantity']
+    df['GrossProfit'] = (df['UnitPrice'] - df['EstimatedUnitCost']) * df['Quantity']
+    df['NetProfit'] = df['GrossProfit'] - df['ShippingCost']
+    df['MinRequiredProfit'] = df['Revenue'] * min_profit_percentage
+    
+    
+    insufficient_profit_mask = df['NetProfit'] < df['MinRequiredProfit']
+    problematic_records = df[insufficient_profit_mask]
+    
+    print(f"Record con profitto insufficiente: {len(problematic_records)}")
+    
+    if len(problematic_records) > 0:
+        print(f"Percentuale record problematici: {len(problematic_records)/len(df):.2%}")
+        
+        
+        print("\n--- ESEMPI DI RECORD PROBLEMATICI ---")
+        for i, (idx, row) in enumerate(problematic_records.head(5).iterrows()):
+            print(f"{i+1}. Invoice {row['InvoiceNo']}, StockCode {row['StockCode']}")
+            print(f"   Revenue: {row['Revenue']:.2f}, GrossProfit: {row['GrossProfit']:.2f}")
+            print(f"   ShippingCost: {row['ShippingCost']:.2f}, NetProfit: {row['NetProfit']:.2f}")
+            print(f"   MinRequiredProfit: {row['MinRequiredProfit']:.2f}")
+        
+        
+        df.loc[insufficient_profit_mask, 'ShippingCost'] = (
+            df.loc[insufficient_profit_mask, 'GrossProfit'] - 
+            df.loc[insufficient_profit_mask, 'MinRequiredProfit']
+        ).clip(lower=0)
+        
+        df.loc[insufficient_profit_mask, 'NetProfit'] = (
+            df.loc[insufficient_profit_mask, 'GrossProfit'] - 
+            df.loc[insufficient_profit_mask, 'ShippingCost']
+        )
+        
+        print(f"\nShippingCost corretto per {len(problematic_records)} record")
+        
+        still_problematic = df[df['NetProfit'] < df['MinRequiredProfit']]
+        
+        if len(still_problematic) > 0:
+            print(f"ATTENZIONE: {len(still_problematic)} record hanno ancora profitto insufficiente")
+            
+            print("\n--- RECORD CON GROSS PROFIT INSUFFICIENTE ---")
+            for i, (idx, row) in enumerate(still_problematic.head(3).iterrows()):
+                print(f"{i+1}. Invoice {row['InvoiceNo']}, StockCode {row['StockCode']}")
+                print(f"   GrossProfit: {row['GrossProfit']:.2f}, MinRequired: {row['MinRequiredProfit']:.2f}")
+                print(f"   UnitPrice: {row['UnitPrice']:.2f}, EstimatedCost: {row['EstimatedUnitCost']:.2f}")
+        else:
+            print("Tutti i record ora hanno profitto sufficiente")
+    else:
+        print("Tutti i record hanno già profitto sufficiente")
+    
+    print(f"\n--- STATISTICHE PROFITTO ---")
+    print(f"Profitto medio: {df['NetProfit'].mean():.2f}")
+    print(f"Profitto mediano: {df['NetProfit'].median():.2f}")
+    print(f"ShippingCost medio: {df['ShippingCost'].mean():.2f}")
+    
+    df['ProfitPercentage'] = df['NetProfit'] / df['Revenue']
+    profit_stats = df['ProfitPercentage'].describe()
+    print(f"Profitto % - Min: {profit_stats['min']:.2%}, Max: {profit_stats['max']:.2%}")
+    print(f"Profitto % - Media: {profit_stats['mean']:.2%}, Mediana: {profit_stats['50%']:.2%}")
+    
+    df = df.drop(columns=['Revenue', 'GrossProfit', 'NetProfit', 'MinRequiredProfit', 'ProfitPercentage'])
+    
+    print()
+    return df
+
 def clean_dataset():
     df = pd.read_csv(INPUT_PATH)
     print(f"Inizio pulizia dataset: {len(df)} righe, colonne: {list(df.columns)}\n")
@@ -486,6 +555,8 @@ def clean_dataset():
     mapping = dict(zip(stock_unit['StockCode'], stock_unit['EstimatedCost']))
     df['EstimatedUnitCost'] = df['StockCode'].map(mapping)
 
+    # 17) Controllo profitto minimo
+    df = ensure_minimum_profit(df, min_profit_percentage=0.05)
     
     df.to_csv(OUTPUT_PATH, index=False, float_format="%.2f")
     print(f"\nDataset consolidato salvato in: {OUTPUT_PATH}")
