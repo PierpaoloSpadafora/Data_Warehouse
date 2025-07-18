@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.7)  13 JUL 2025 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.7)  18 JUL 2025 02:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,11 +374,11 @@ File: ../Graphs/1_Attribute_Tree.png Graphic file (type png)
 <use ../Graphs/1_Attribute_Tree.png>
 Package pdftex.def Info: ../Graphs/1_Attribute_Tree.png  used on input line 121.
 (pdftex.def)             Requested size: 386.96027pt x 241.0129pt.
-<../Graphs/2_Attribute_Tree_Pruning_Grafting.png, id=111, 1434.86063pt x 841.64438pt>
+<../Graphs/2_Attribute_Tree_Pruning_Grafting.png, id=111, 1652.42343pt x 919.93687pt>
 File: ../Graphs/2_Attribute_Tree_Pruning_Grafting.png Graphic file (type png)
 <use ../Graphs/2_Attribute_Tree_Pruning_Grafting.png>
 Package pdftex.def Info: ../Graphs/2_Attribute_Tree_Pruning_Grafting.png  used on input line 130.
-(pdftex.def)             Requested size: 386.96027pt x 226.97733pt.
+(pdftex.def)             Requested size: 386.96027pt x 215.42719pt.
 
 Overfull \hbox (0.23074pt too wide) in paragraph at lines 135--138
 []\T1/cmr/bx/n/10.95 Step 2 - prun-ing and graft-ing\T1/cmr/m/n/10.95 : At-tributes such as \T1/cmtt/m/n/10.95 InvoiceNo\T1/cmr/m/n/10.95 , \T1/cmtt/m/n/10.95 StockCode\T1/cmr/m/n/10.95 , and \T1/cmtt/m/n/10.95 CustomerID
@@ -397,11 +397,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
                                                   \__shipout_drop_firstpage_...
 l.138 
        <../Graphs/1_Attribute_Tree.png> <../Graphs/2_Attribute_Tree_Pruning_Grafting.png>]
-<../Graphs/3_Final_Attribute_Tree.png, id=120, 1170.62344pt x 736.25063pt>
+<../Graphs/3_Final_Attribute_Tree.png, id=120, 1584.67032pt x 913.91437pt>
 File: ../Graphs/3_Final_Attribute_Tree.png Graphic file (type png)
 <use ../Graphs/3_Final_Attribute_Tree.png>
 Package pdftex.def Info: ../Graphs/3_Final_Attribute_Tree.png  used on input line 141.
-(pdftex.def)             Requested size: 386.96027pt x 243.37912pt.
+(pdftex.def)             Requested size: 386.96027pt x 223.1649pt.
 
 
 [7
@@ -453,7 +453,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,445b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Data_Warehouse_Report_Spadafora_263722.pdf (9 pages, 2425990 bytes).
+Output written on Data_Warehouse_Report_Spadafora_263722.pdf (9 pages, 2510579 bytes).
 PDF statistics:
  215 PDF objects out of 1000 (max. 8388607)
  163 compressed objects within 2 object streams
