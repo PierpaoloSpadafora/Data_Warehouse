@@ -517,10 +517,10 @@ def clean_dataset():
     log_step(step, prev_count, len(df), "Validate InvoiceNo (6 digits)")
     prev_count = len(df); step += 1
 
-    # 12) InvoiceDate tra 2000 e oggi
+    # 12) InvoiceDate tra 2000 e fine 2024
     df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'], errors='coerce')
-    df = df[df['InvoiceDate'].between('2000-01-01', TODAY)]
-    log_step(step, prev_count, len(df), "Filter InvoiceDate tra 2000-01-01 e oggi")
+    df = df[df['InvoiceDate'].between('2000-01-01', '2024-12-31')]
+    log_step(step, prev_count, len(df), "Filter InvoiceDate tra 2000-01-01 e 2024-12-31 (escluso 2025)")
     prev_count = len(df); step += 1
 
     # 13) Rimuovi CountryClean se identico a Country
